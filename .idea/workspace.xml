@@ -2,6 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8f3aee3-afd1-4469-b09d-c395003f7fd2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/4_closure.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/6_closure_btn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/7_closure_btns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/day04.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,16 +34,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3_province.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AJAX/day02/3_province.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="3_province.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AJAX/day02/3_province.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,36 +48,74 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07_xuzi_list.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AJAX/day02/07_xuzi_list.php">
+      <file leaf-file-name="split.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCore/day01/split.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07_xuezi_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AJAX/day02/07_xuezi_list.html">
+      <file leaf-file-name="day04.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCore/day04/day04.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="2541">
+              <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4_closure.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCore/day04/4_closure.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
-                <marker date="1287974713406" expanded="true" signature="367:940" ph="{...}" />
-                <marker date="1287974713406" expanded="true" signature="602:919" ph="{...}" />
-                <marker date="1287974713406" expanded="true" signature="602:915" ph="{...}" />
-                <marker date="1287974713406" expanded="true" signature="645:875" ph="{...}" />
+                <element signature="e#111#218#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="split.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jsCore/day01/split.html">
+      <file leaf-file-name="1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCore/day04/closure/1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCore/day04/closure/2.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCore/day04/closure/3.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6_closure_btn.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCore/day04/6_closure_btn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7_closure_btns.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsCore/day04/7_closure_btns.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -107,10 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Nodejs/day04/index.html" />
-        <option value="$PROJECT_DIR$/Nodejs/day04/gulp-demo/gulpfile.js" />
-        <option value="$PROJECT_DIR$/Nodejs/day04/gulp-demo/package.json" />
-        <option value="$PROJECT_DIR$/Nodejs/day04/gulp-medo/gulpfile.js" />
         <option value="$PROJECT_DIR$/Nodejs/day04/gulp-test/js/test.js" />
         <option value="$PROJECT_DIR$/Nodejs/day04/gulp-test/js/c.js" />
         <option value="$PROJECT_DIR$/Nodejs/day04/gulp-test/js/b.js" />
@@ -158,6 +196,10 @@
         <option value="$PROJECT_DIR$/AJAX/day02/3_province.php" />
         <option value="$PROJECT_DIR$/AJAX/day02/3_province.html" />
         <option value="$PROJECT_DIR$/AJAX/day02/3_city.php" />
+        <option value="$PROJECT_DIR$/jsCore/day04/day04.md" />
+        <option value="$PROJECT_DIR$/jsCore/day04/4_closure.html" />
+        <option value="$PROJECT_DIR$/jsCore/day04/6_closure_btn.html" />
+        <option value="$PROJECT_DIR$/jsCore/day04/7_closure_btns.html" />
       </list>
     </option>
   </component>
@@ -248,8 +290,48 @@
               <option name="myItemId" value="day04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dolphin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dolphin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dolphin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dolphin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="closure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,11 +368,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dolphin\jsCore\day04" />
       <recent name="C:\xampp\htdocs\dolphin\jsCore\day04\scope" />
       <recent name="C:\xampp\htdocs\dolphin\Nodejs\day05" />
       <recent name="C:\xampp\htdocs\dolphin\Nodejs" />
       <recent name="C:\xampp\htdocs\dolphin\Nodejs\day04" />
-      <recent name="C:\xampp\htdocs\dolphin\Nodejs\day05\mocha-demo\ti" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\dolphin\AJAX\day02" />
@@ -456,11 +538,18 @@
       <option name="project" value="LOCAL" />
       <updated>1287975789526</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1 files">
+      <created>1287975826071</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1287975826071</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103065000" />
+    <option name="totallyTimeSpent" value="110634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -566,16 +655,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/gulp-test/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/gulp-test/scss/style.scss" />
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/gulp-test/index.html" />
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/gulp-exercise/js/jquery.js" />
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/gulp-medo/package.json" />
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/gulp-exercise/package.json" />
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/gulp-exercise/scss/style.scss" />
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/gulp-exercise/js/index.js" />
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/gulp-exercise/dist/all.js" />
-    <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/Nodejs/day04/gulp-exercise/index.html" />
     <entry file="file://$PROJECT_DIR$/Nodejs/day04/index.html" />
     <entry file="file://$PROJECT_DIR$/Nodejs/day04/webpack-demo/npm-debug.log" />
@@ -753,6 +832,84 @@
             <marker date="1287974713422" expanded="true" signature="1044:1079" ph="{...}" />
             <marker date="1287974713422" expanded="true" signature="1109:1167" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/day01/split.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/day04/day04.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2541">
+          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/day04/4_closure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#111#218#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/day04/closure/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/day04/closure/2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AJAX/day02/07_xuzi_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/day04/closure/3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AJAX/day02/07_xuezi_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+          <folding>
+            <marker date="1287974713406" expanded="true" signature="367:940" ph="{...}" />
+            <marker date="1287974713406" expanded="true" signature="602:915" ph="{...}" />
+            <marker date="1287974713406" expanded="true" signature="602:919" ph="{...}" />
+            <marker date="1287974713406" expanded="true" signature="645:875" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/day04/6_closure_btn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/day04/7_closure_btns.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

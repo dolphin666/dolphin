@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+赞：<button id="btn_zan">+0</button>
+踩：<button id="btn_cai">+0</button>
+<script>
+	function out() {
+		var i=0;
+		return function () {
+			this.innerHTML="+"+ ++i;
+		}
+	}
+	i=20;
+	btn_zan.onclick=out();
+	btn_cai.onclick=out();
+</script>
+</body>
+</html>
