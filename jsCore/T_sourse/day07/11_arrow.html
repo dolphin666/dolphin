@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		var arr=[23,2,12,3,123,1];
+		arr.sort(//去function,改=>
+			(a,b)=>a-b//如果只有一句话，可省略{}
+		);            //如果只有一句return，可省略return
+		console.log(String(arr));
+
+		var arr=[1,2,3,4,5];
+		arr.forEach(
+			(val,i,arr)=>arr[i]=val*2
+		);
+		console.log(String(arr));
+
+		var arr=[1,2,3,4,5];
+		var evens=arr.map(
+			val=>val*2//如果只有一个参数变量，可省略()
+		);
+		console.log(String(arr));
+		console.log(String(evens));
+	</script>
+ </body>
+</html>

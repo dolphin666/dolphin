@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		function indexOf(arr,val,fromi=0){
+			//fromi=fromi||0;
+			for(var i=fromi;i<arr.length;i++){
+				if(arr[i]===val) return i;
+			}
+			return -1;
+		}
+		var arr=[1,2,3,4,3,2,1];
+		      // 0 1 2 3 4 5 6
+		console.log(
+			indexOf(arr,2),  //1
+			indexOf(arr,2,3),//5
+			indexOf(arr,5),  //-1
+			indexOf(arr,4,4) //-1
+		);
+	</script>
+ </body>
+</html>

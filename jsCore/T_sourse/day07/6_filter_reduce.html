@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		var arr=[1,2,3,4,5];
+		var evens=arr.filter(function(val){
+			return val%2==0;
+		});
+		console.log(arr);
+		console.log(evens);
+
+		var arr1=[1,3,5,7,9];
+		var sum=arr1.reduce(function(prev,val){
+			return prev+val;
+		});
+		var arr2=[2,4,6,8,10];
+		sum=arr2.reduce(function(prev,val){
+			return prev+val;
+		},sum);
+		console.log(sum);
+	</script>
+ </body>
+</html>

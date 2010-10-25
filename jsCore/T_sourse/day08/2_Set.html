@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		var arr=[1,2,3,2,1];
+		var set=new Set(arr);
+		console.log(set);
+		arr=[...set];
+		console.log(arr);
+
+		for(var i=0,arr=[];i<1000000;i++){
+			arr[i]=parseInt(Math.random()*1000+9000)
+		}
+
+		//鄙视: 数组去重复，且考虑百万数量级
+		function repeat1(arr){
+			var res=[];
+			for(var i=0;i<arr.length;i++){
+				if(res.indexOf(arr[i])==-1)
+					res.push(arr[i]);
+			}
+			return res;
+		}
+		function repeat2(arr){
+			var set=new Set(arr);
+			return [...set];
+		}
+		function repeat3(arr){
+			var res=[];
+			var hash=new Map();//{};
+			for(var i=0;i<arr.length;i++){
+				//if(hash[arr[i]]===undefined){
+				if(!hash.has(arr[i])){
+					hash.set(arr[i],1);//hash[arr[i]]=1;
+					res.push(arr[i]);
+				}
+			}
+			return res;
+		}
+		console.time("repeat1");//ready go
+		repeat1(arr);
+		console.timeEnd("repeat1");//end
+		console.time("repeat2");//ready go
+		repeat2(arr);
+		console.timeEnd("repeat2");//end
+		console.time("repeat3");//ready go
+		repeat3(arr);
+		console.timeEnd("repeat3");//end
+	</script>
+ </body>
+</html>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		//正则:/^\s+|\s+$/g
+		//如果字符串的原型对象中没有trim
+		if(typeof String.prototype.trim!="function")
+			//就向字符串的原型对象中添加trim函数
+			String.prototype.trim=function(){
+				document.write("调用自定义的trim函数<br>");
+				//this->将来调用trim的.前的字符串
+				//将当前字符串开头和结尾的空字符删除，然后返回
+				return this.replace(/^\s+|\s+$/g,"");
+			}
+
+		var str=" zhang dong ";
+		document.write(str.trim());
+	</script>
+ </body>
+</html>

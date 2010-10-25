@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		var scores=[81,59,89];
+		var [math,chs,eng]=scores;
+		console.log(math,chs,eng);
+
+		var fbb={
+			math:81,
+			chs:59,
+			eng:89
+		};
+		var {
+			math:a,
+			chs:b,
+			eng:c
+		}=fbb;
+		console.log(a,b,c);
+
+		function sum1([math,chs,eng]){
+			return math+chs+eng
+		};
+		var scores=[81,59,89];
+		console.log(sum1(scores));
+
+		function sum2({
+			math,//math:math,
+			chs,//chs:chs,
+			eng,//eng:eng
+		}){
+			return math+chs+eng
+		}
+		var fbb={
+			math:81,
+			chs:59,
+			eng:89
+		};
+		console.log(sum2(fbb))
+	</script>
+ </body>
+</html>

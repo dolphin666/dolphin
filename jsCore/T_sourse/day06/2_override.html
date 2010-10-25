@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		var lilei={
+			sname:"Li Lei",
+			age:11,
+			intr(){
+				console.log(
+					"I'm "+this.sname+", I'm "+this.age);
+			},
+			toString(){
+				var str=""
+				for(var key in this){
+					if(typeof this[key]!=="function")
+						str+=key+":"+this[key]+","
+				}
+				return "{"+str.slice(0,-1)+"}"
+			}
+		}//__proto__=Object.prototype
+			//           .toString()=>"[object Object]"
+		console.log(String(lilei));
+	</script>
+ </body>
+</html>

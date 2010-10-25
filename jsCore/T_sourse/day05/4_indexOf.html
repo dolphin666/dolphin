@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		//如果当前浏览器中Array的原型对象中没有indexOf
+		if(typeof Array.prototype.indexOf!="function")
+			//就向数组的原型对象中手动添加indexOf函数
+			Array.prototype.indexOf=function(val,fromi){
+				document.write("调用自定义的indexOf<br>");
+				//this->将来调用该方法的.前的子对象
+				fromi=fromi||0;
+				for(var i=fromi;i<this.length;i++){
+					if(this[i]===val)
+						return i;
+				}
+				return -1;
+			}
+
+
+
+		var str="no zuo no die";
+					// 0123
+		var i=str.indexOf("zuo");
+		document.write("在位置"+i+"发现关键词<br>");
+
+		var arr=[1,2,3,4,3,2,1];
+					 //0 1 2 3 4 5 6
+		document.write(arr.indexOf(3)+"<br>");//2
+		document.write(arr.indexOf(2,3)+"<br>");//5
+		document.write(arr.indexOf(5));//-1
+	</script>
+ </body>
+</html>

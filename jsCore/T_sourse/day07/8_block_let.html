@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+	  var t=0;
+		function conn(){
+			t+=0.3; console.log("建立连接，耗时0.3s");
+		}
+		function query(){//hoist
+			t+=0.8; console.log("查询数据，耗时0.8s");
+
+			var err=false;
+			if(err){//不执行！
+				//(function(){
+				let t=new Date();
+				console.log("出错啦! at:"+t);
+				//})();
+			}
+		}
+		conn(); query();
+		console.log("共耗时:"+t+"s");//1.1
+	</script>
+ </body>
+</html>

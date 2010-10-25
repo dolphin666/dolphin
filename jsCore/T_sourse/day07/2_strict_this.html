@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		function fun1(){
+			console.log(this);//window
+		}
+		fun1();
+		function fun2(){
+			"use strict";
+		}
+		fun2();
+		(function(){
+			console.log(this);//window
+		})();
+		(function(){
+			"use strict";
+			console.log(this);//undefined
+		})();
+
+	</script>
+ </body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		"use strict";
+		function Emp(id,ename,salary,age){
+			//this->new
+			this.id=id;
+			this.ename=ename;
+			this.salary=salary;
+			
+			Object.defineProperties(this,{
+				id:{ writable:false },
+				salary:{ enumerable:false },
+				_age:{ value:null, writable:true },
+				age:{
+					get(){return this._age},
+					set(val){
+						if(val>=18&&val<=65)
+							this._age=val;
+						else throw new RangeError(
+									"年龄必须介于18~65之间");
+					},
+					enumerable:true
+				}
+			});
+			this.age=age;
+
+			//防篡改:
+			//Object.preventExtensions(this);
+			Object.seal(this);
+		}
+
+		//var eric=new Emp(1001,"Eric",12000,-2);
+		var eric=new Emp(1001,"Eric",12000,26);
+
+//		Object.defineProperty(eric,"id",{
+//			writable:true
+//		});
+//		eric.id=1002;
+//		delete eric.ename;
+		for(var key in eric){
+			console.log(key+":"+eric[key]);
+		}
+		//eric.age=-2;
+		eric.Age=-2;
+		console.dir(eric);
+	</script>
+ </body>
+</html>

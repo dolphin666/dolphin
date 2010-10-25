@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		//一个学生: 
+			//姓名: Li Lei
+			//年龄: 11
+			//自我介绍: I'm Li Lei, I'm 11
+//		var lilei={
+//			sname:"Li Lei",
+//			age:11,
+//			intr(){//ES6
+//				console.log(
+//					"I'm "+this.sname
+//					+", I'm "+this.age);
+//			}
+//		}
+		var lilei=/*new */Object();
+		lilei.sname="Li Lei";
+		lilei.age=11;
+		lilei.intr=function(){
+			//Tools->Preferences->Tools->keyboard->edit->line uncomment: Ctrl+Alt+/ 点assign点apply
+			console.log(
+					"I'm "+this.sname
+					+", I'm "+this.age
+			);
+		}
+
+		console.dir(lilei);//显示一个对象的存储结构
+		console.log(lilei.sname);
+		console.log(lilei.age);
+		lilei.intr();//this->lilei
+		lilei.age++;
+		console.log(lilei.age);
+		lilei.intr();
+		lilei.sname="Li Xiaolei";
+		lilei.intr();
+	</script>
+ </body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		class Emp{
+			constructor(id,ename,age){
+				this.id=id;
+				this.ename=ename;
+				Object.defineProperty(this,"_age",{
+					value:null,
+					writable:true
+				})
+				this.age=age;
+
+				Object.seal(this);
+			}
+			get age(){return this._age}
+			set age(val){
+				if(val>=18&&val<=65)
+				  this._age=val;
+				else 
+				  throw new RangeError(
+						"年龄必须介于18~65之间")
+			}
+		}
+
+		var eric=new Emp(1001,"Eric",25);
+		console.dir(eric);
+		eric.age=26;
+		console.log(eric.age)
+		eric.age=-2;
+	</script>
+ </body>
+</html>

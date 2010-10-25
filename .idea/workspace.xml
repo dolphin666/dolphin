@@ -2,6 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8f3aee3-afd1-4469-b09d-c395003f7fd2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/constructor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/day05.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/inherits.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/isArray.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/prototype chain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/this.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/day06.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/getter_setter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/inherits_extends.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/day07.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day08/day08.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/1_obj.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/2_constructor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/3_inherits.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/4_indexOf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/5_trim.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/6_prototype_bs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/7_isArray.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/10_Object_create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/1_isArray.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/2_override.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/3_setPrototypeOf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/4_inherits_extends.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/5_strict.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/6_defineProperty.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/7_getter_setter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/8_constructor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/9_freeze.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/10_for_let.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/11_arrow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/12_arrow_this.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/13_default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/14_rest_spread.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/15_templateString.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/16_distruct.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/17_class.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/18_getter_setter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/1_inherits_extends.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/2_strict_this.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/3_call_apply_bind.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/4_every_some.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/5_forEach_map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/6_filter_reduce.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/7_hoist_let.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/8_block_let.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/9_closure_let.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day08/1_arguments_array.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day08/2_Set.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day08/3_for_of.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day08/4_Symbol.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day08/5_promise.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -290,28 +341,6 @@
               <option name="myItemId" value="jsCore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="T_sourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="day01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dolphin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dolphin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsCore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -523,11 +552,18 @@
       <option name="project" value="LOCAL" />
       <updated>1287992615500</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1 files">
+      <created>1287992642306</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1287992642306</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111354000" />
+    <option name="totallyTimeSpent" value="111556000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -541,10 +577,10 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="754" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21956088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21956088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28456593" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />

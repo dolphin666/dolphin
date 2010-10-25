@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		//REST: 代替arguments,聚拢多个参数值
+		function calc1(ename,...sals){
+			//sals:[10000,500,200,300]
+			console.log(ename+"的总工资是"+
+				sals.reduce((prev,val)=>prev+val)
+			);
+		}
+		calc1("Li Lei",10000,500,200,300);
+		calc1("Han Meimei",3000,4000,5000);
+		
+		function calc2(base,b1,b2,b3){//要求参数分别传入
+			console.log(base+b1+b2+b3);
+		}
+		//SPREAD:代替apply
+		//将数组打散为单个参数值，再分发给每个参数变量
+		var bonus=[1000,2000,3000];//参数值在一个数组中
+		calc2(10000,...bonus);
+
+		var arr=[3,5,2];
+		//Math.max.apply(null,arr)
+		console.log(Math.max(...arr));
+	</script>
+ </body>
+</html>

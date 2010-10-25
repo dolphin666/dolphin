@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		var eric={ id:1001, ename:"Eric" };
+		//age必须介于18~65之间
+		Object.defineProperties(eric,{
+		//用defineProperties添加的属性，特性默认为false
+			_age:{ value:25, writable:true },
+			age:{
+				get(){ return this._age; },
+				set(val){
+					if(val>=18&&val<=65) this._age=val;
+					else throw new RangeError(
+								"年龄必须介于18~65之间")
+				},
+				enumerable:true
+			}
+		});
+		eric.age=26;//自动调age的set
+		console.log(eric.age);//自动调age的get
+		eric.age=-2;//自动调age的set
+	</script>
+ </body>
+</html>

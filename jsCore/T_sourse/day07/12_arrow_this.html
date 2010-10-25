@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		var bob={
+			sname:"Bob",
+			friends:["jack","rose","tom","jerry","lucy"],
+			intr(){
+				this.friends.forEach(
+					val=>console.log(this.sname+" 认识 "+val)
+//					function(val){
+//						console.log(this.sname+" 认识 "+val);
+//					}.bind(this)
+				);
+			}
+		}
+		bob.intr();//intr中的this->bob
+	</script>
+ </body>
+</html>

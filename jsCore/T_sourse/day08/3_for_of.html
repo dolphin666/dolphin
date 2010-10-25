@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <button>click me!</button>
+  <button>click me!</button>
+  <button>click me!</button>
+  <script>
+		var arr=[1,2,3,4,5];
+//		for(var i=0;i<arr.length;i++){
+//			console.log(arr[i]);
+//		}
+		for(var v of arr){
+			console.log(v);
+		}
+
+		var btns=document.getElementsByTagName("button")
+		for(var b of btns){
+			b.onclick=function(){
+				alert("痒！");
+			}
+		}
+	</script>
+ </body>
+</html>

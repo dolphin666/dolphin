@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <button>click me!</button>
+  <button>click me!</button>
+  <button>click me!</button>
+	<script>
+		var btns=
+			document.getElementsByTagName("button");
+		for(let i=0;i<btns.length;i++){
+			//(function(i){
+				btns[i].onclick=function(){
+					alert(i);
+				}
+			//})(i);
+//			btns[i].onclick=(function(){
+//				var index=i;
+//				return function(){
+//					alert(index);
+//				}
+//			})();
+			//btns[0].onclick=function(){alert(index=0);}
+			//btns[1].onclick=function(){alert(index=1);}
+			//btns[2].onclick=function(){alert(index=2);}
+		}//i=3
+		//单击 3
+		//单击 3
+		//单击 3
+	</script>
+ </body>
+</html>

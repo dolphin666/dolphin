@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+   <script>
+		function calc(ename/*b1,b2,...*/){
+			var args=//将类数组对象复制为一个数组
+				Array.prototype.slice.call(arguments);
+			var salary=args.slice(1);
+			console.log(
+				`${ename}的总工资:¥${
+					salary.reduce((prev,val)=>prev+val)
+				}`
+			);
+		}
+		calc("Li Lei",10000,1000,2000,3000);
+	 </script> 
+ </body>
+</html>

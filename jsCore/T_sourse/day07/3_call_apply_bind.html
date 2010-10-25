@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		function calc(base,bonus1,bonus2){
+			console.log(
+				this.ename+"的总工资:"+(base+bonus1+bonus2)
+			);
+		}
+		var lilei={ename:"Li Lei"};//->Object.prototype
+		var hmm={ename:"Han Meimei"};
+		//临时借用
+		calc.call(lilei,10000,1000,2000);
+		calc.apply(hmm,[3000,4000,5000]);
+		//lilei买一个专属于自己的
+		var lilei_calc=calc.bind(lilei,10000);
+		//lilei_calc:function(bonus1,bonus2){
+		//  console.log( //this->lilei, base->10000
+    //   this.ename+"的总工资:"+(base+bonus1+bonus2)
+    //	);
+		//}
+		lilei_calc(1000,2000);
+		//lilei_calc.call(hmm,3000,4000,5000);
+			//lilei:17000
+	</script>
+ </body>
+</html>

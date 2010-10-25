@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		//DRY
+		//1. 定义构造函数，描述学生类型的统一结构
+		function Student(sname,age){
+			this.sname=sname;
+			this.age=age;
+			this.intr=function(){
+				console.log(
+					"I'm "+this.sname
+					+", I'm "+this.age);
+			}
+		}
+		//2. 用new调用构造函数反复创建学生类型的具体对象
+		var lilei=new Student("Li Lei",11);
+		var hmm=new Student("Han Meimei",12);
+		console.dir(lilei);
+		console.dir(hmm);
+		lilei.intr();
+		hmm.intr();
+	</script>
+ </body>
+</html>

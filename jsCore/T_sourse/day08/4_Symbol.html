@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+	<style>
+		div{
+			width:100px; height:100px;
+			background:red;
+			position:fixed;
+			top:100px; left:0;
+			transition:all 2s linear;
+		}
+	</style>
+ </head>
+ <body>
+	<button id="btn_right">右移一次</button>
+  <div id="pop"></div>
+	<script>
+		function moveRight(elem,dist){
+			var left=
+				parseFloat(getComputedStyle(elem).left);
+			left+=dist;
+			elem.style.left=left+"px";
+		}
+		
+		var isMoving=Symbol("isMoving");
+		console.dir(isMoving);
+		pop[isMoving]=false;
+		btn_right.onclick=function(){
+			if(pop[isMoving]==false){
+				pop[isMoving]=true;
+				moveRight(pop,100);
+				setTimeout(()=>pop[isMoving]=false,2000);
+			}
+		}
+		pop.isMoving=false;
+	</script>
+ </body>
+</html>
