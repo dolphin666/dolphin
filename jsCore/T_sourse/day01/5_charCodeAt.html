@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		var msg="今晚308,w84u";
+		function encode(msg){
+			var code="";//声明空字符串code
+			//遍历msg中每个字
+			for(var i=0;i<msg.length;i++){
+				//将当前位置的字转为unicode号拼到code上
+				//如果unicode号不足5位，就在之前补0，补齐成5位
+				var uc=msg.charCodeAt(i);
+//				if(uc<100) uc="000"+uc;
+//				else if(uc<1000) uc="00"+uc;
+				uc=(uc+100000+"").slice(1);
+				code+=uc;
+			}
+      return code;//返回code
+		}//code
+		var code=encode(msg);
+		console.log(code);
+
+		function decode(code){
+			var msg="";//声明空字符串msg
+			//每5个字遍历一次code
+			for(var i=0;i<code.length;i+=5){
+				//获取code中i位置开始的5个字符，转回正文，拼接到msg上
+				msg+=
+					String.fromCharCode(code.slice(i,i+5));
+					                  //code.substring(i,i+5)
+														//code.substr(i,5)
+			}
+			return msg;//返回msg
+		}//msg
+		var msg2=decode(code);
+		console.log(msg2);
+		//练习6分钟
+	</script>
+ </body>
+</html>

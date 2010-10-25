@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		var target=new Date("2017/8/28");
+		var now=new Date();
+		var s=parseInt((target-now)/1000);
+		var d=parseInt(s/(3600*24));
+		var h=parseInt(s%(3600*24)/3600);
+		var m=parseInt(s%3600/60);
+		var s=s%60;
+		document.write(
+		"距离七夕还有:"+d+"天"+h+"小时"+m+"分"+s+"秒");
+		
+	</script>
+ </body>
+</html>

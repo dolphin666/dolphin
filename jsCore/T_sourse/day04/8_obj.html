@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		//一个学生: 
+			//姓名: Li Lei
+			//年龄: 11
+			//自我介绍: I'm Li Lei, I'm 11
+		var lilei={
+			sname:"Li Lei",
+			age:11,
+			intr(){//ES6
+				console.log("I'm "+sname+", I'm "+age);
+			}
+		}
+		console.log(lilei.sname);
+		console.log(lilei.age);
+		lilei.intr();
+		lilei.age++;
+		console.log(lilei.age);
+		lilei.intr();
+	</script>
+ </body>
+</html>

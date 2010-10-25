@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		function String(obj){
+			console.log("调用自定义的String");
+			if(obj===null) return "null";
+			else if(obj===undefined) return "undefined";
+			else return obj.toString();
+		}
+		var n=3,b=true,now=new Date(),arr=[1,2,3],
+		    fun=function(a,b){return a-b},
+				x=null,y;
+		console.log(String(n));
+		console.log(String(b));
+		console.log(String(now));
+		console.log(String(arr));
+		console.log(String(fun));
+		console.log(String(x));//null
+		console.log(String(y));//undefined
+	</script>
+ </body>
+</html>

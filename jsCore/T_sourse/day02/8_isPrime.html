@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		//鄙视: 定义函数，判断一个数是不是质数/素数
+		function isPrime(n){
+			if(n<=3) return true;
+			else if(n%2==0) return false;
+			else{
+				for(var i=3;i<=Math.sqrt(n);i+=2){
+					if(n%i==0)
+						return false
+				}
+				return true;
+			}
+		}
+		console.log(isPrime(107));//true
+		console.log(isPrime(111));//false
+	</script>
+ </body>
+</html>

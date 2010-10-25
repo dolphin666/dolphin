@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		var code="E5dA";
+		do{
+			var input=prompt("请输入验证码"+code);
+			if(input.toUpperCase()
+			    ==code.toUpperCase()) 
+				break;
+			else alert("验证码错误，请重新输入!");
+		}while(true);
+		document.write("验证通过");
+	</script>
+ </body>
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		var n=345.678;
+		console.log(n.toFixed(2));//345.68
+		         //new Number(n).toFixed(2)
+
+		var c="张";
+		console.log(c.charCodeAt());//24352
+		         //new String(c).charCodeAt()
+		console.log(c.toFixed(2));
+
+		var str1="Hello",str2="Hello";//原始类型的值
+		console.log(str1==str2);//true
+		var str1=new String("Hello"),
+		    str2=new String("Hello");//包装类型对象
+		console.log(str1==str2);//false
+
+		console.log([]==[]);//false
+	</script>
+ </body>
+</html>

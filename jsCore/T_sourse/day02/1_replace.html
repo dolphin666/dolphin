@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		var str="No zuo no die No can no bibi";
+		str=str.replace(/no/ig,"**");
+		console.log(str);
+
+		var str="那天，我去了她家。我说:我草，你家真大！她想和我去草地野餐。我草草的收拾了草地。她说:我去去就来。";
+		//我去,我草,我去草,我草草,我去去
+		str=str.replace(/我[去草]{1,2}/ig,function(kw){
+			return kw.length==2?"**":"***";
+		});
+		console.log(str);
+
+		var str="\t   zhang    dong \t   ";
+               //"zhang    dong"
+//		//删除开头的空字符
+//		str=str.replace(/^\s+/,"");
+//		//删除结尾的空字符
+//		str=str.replace(/\s+$/,"");
+		//同时删除开头和结尾的空字符
+		str=str.replace(/^\s+|\s+$/g,"");
+		console.log(str);
+	</script>
+ </body>
+</html>

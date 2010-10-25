@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		var hiredate=new Date("2012/6/30");
+		var enddate=new Date(hiredate);
+		enddate.setFullYear(enddate.getFullYear()+3);
+		//复制enddate到renewdate
+		var renewdate=new Date(enddate);
+		//将renewdate减一个月
+		renewdate.setMonth(renewdate.getMonth()-1);
+		//如果renewdate是周六
+		if(renewdate.getDay()==6)
+			//renewdate减1天
+			renewdate.setDate(renewdate.getDate()-1);
+		//否则如果renewdate是周日
+		else if(renewdate.getDay()==0)
+			//renewdate减2天
+			renewdate.setDate(renewdate.getDate()-2);
+		
+		console.log(hiredate.toLocaleString());
+		console.log(enddate.toLocaleDateString());
+		console.log(renewdate);
+		//练习10分钟
+	</script>
+ </body>
+</html>

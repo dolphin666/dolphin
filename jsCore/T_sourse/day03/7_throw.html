@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+	<form id="form1">
+		请输入数字: <input name="num"><br>
+		请输入小数位数: <input name="d"><br>
+		<input id="btn" type="button" value="四舍五入">
+		<div id="sc"></div>
+	</form>
+  <script>
+		//作者:东东
+		function round(num,d){
+			if(!isNaN(num)&&!isNaN(d)){
+				num*=Math.pow(10,d);
+				num=Math.round(num);
+				return num/Math.pow(10,d);
+			}else{
+				throw new Error("孙子！必须输入数字！");
+			}
+		}
+
+		//调用者:旭旭
+		btn.onclick=function(){
+			if(!isNaN(num)&&!isNaN(d)){//try{
+				sc.innerHTML=
+					round(form1.num.value,form1.d.value);
+			}else{//}catch(err){
+				sc.innerHTML="请您输入数字！";
+				//console.log(String(err));
+			}
+			console.log("程序继续执行...");
+		}
+		
+	</script>
+ </body>
+</html>

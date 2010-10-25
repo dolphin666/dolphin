@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+	<form id="form1">
+		用户名:<input name="uname"/>
+					 <span id="uname_msg"></span><br>
+		密码:<input name="pwd" type="password"/>
+					<span id="pwd_msg"></span>
+	</form>
+  <script>
+		var reg_uname=/^\w{1,10}$/,reg_pwd=/^\d{6}$/;
+		form1.uname.onblur=function(){
+			vali(
+			reg_uname,this,uname_msg,"用户名格式不正确!");
+		}
+		function vali(reg,txt,span,msg){
+			if(reg.test(txt.value)) span.innerHTML="√";
+      else span.innerHTML="× "+msg;
+		}
+		form1.pwd.onblur=function(){
+			vali(reg_pwd,this,pwd_msg,"密码格式不正确!");
+		}
+	</script>
+ </body>
+</html>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		//1. 用外层函数包裹要保护的变量和内层函数
+		function factory(){
+			var i=1;//保护
+			//2. 外层函数将内层函数返回到外部
+			return function(){//使用变量的函数
+				console.log(i++);
+			}
+		}
+		//3. 使用者调用外层函数获得内层函数的对象
+		var icbc=factory();//创建一个factory的AO(i=1)
+		//icbc:function(){ console.log(i++); } 
+		icbc();//1
+		icbc();//2
+		i=1;
+		icbc();//3
+		icbc();//4
+
+		var abc=factory();//创建一个factory的AO(i=1)
+		abc();//1
+		abc();//2
+	</script>
+ </body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		/*hoist
+		    |
+				|
+				|
+				|
+				J
+		*/
+		//var a;
+
+		console.log(a);//undefined
+		var a=10;
+		console.log(a);//10
+    
+		//var fun;
+
+
+		function fun(){console.log(1);}
+		//var fun=function(){console.log(1);}
+		fun();//2 1
+		function fun(){console.log(2);}
+		//var fun=function(){console.log(2);}
+		fun();//2 2
+	</script>
+ </body>
+</html>

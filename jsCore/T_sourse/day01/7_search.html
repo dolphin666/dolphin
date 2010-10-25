@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+//		var str=
+//		  "那天，我去了她家。我说: 我艹！你家真大！";
+//			                       //我操
+//														 //我草
+//														 //卧槽
+//		var i=str.search(/[我卧][操草艹槽]/);
+    var str="咱们WX联系";
+		var i=str.search(/(微|w(ei)?)\s*(信|x(in)?)/i);
+		if(i!=-1)
+			alert("发现敏感词，关小黑屋！");
+		else
+			document.write("大旭说:"+str);
+	</script>
+ </body>
+</html>

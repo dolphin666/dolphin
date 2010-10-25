@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		//二选一
+		//console.log(Math.random()<0.8?"①":"※");
+		
+		//多选一
+		var r=Math.random();
+		console.log(
+			r<0?"特等奖:mac pro":
+			r<0.000001?"一等奖:iphone":
+			r<0.0001?"二等奖:小米":
+			r<0.01?"三等奖:U盘":
+						"鼓励奖:卫生纸"
+		);
+	</script>
+ </body>
+</html>

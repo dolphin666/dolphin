@@ -2,20 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8f3aee3-afd1-4469-b09d-c395003f7fd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/closure/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/4_closure.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/6_closure_btn.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/7_closure_btns.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day04/day04.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day01/day01.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day02/day02.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day03/day03.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/4_getNum.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/closure/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/closure/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/closure/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/closure/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/closure/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/closure/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/closure/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/closure/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/closure/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/closure/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/day04.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/scope/1_程序开始执行前.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/scope/2_定义函数时.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/scope/3_调用函数时1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/scope/4_调用函数时2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/scope/5_调用函数后.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/~$day04.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day01/1_review_slice.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day01/2_string.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day01/3_Number.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day01/4_case.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day01/5_charCodeAt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day01/6_indexOf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day01/7_search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day01/8_match.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day02/10_doubleball.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day02/1_replace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day02/2_split.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day02/3_split.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day02/4_RegExp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day02/5_reg_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day02/6_reg_exec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day02/7_round.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day02/8_isPrime.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day02/9_random.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day03/1_date.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day03/2_timer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day03/3_ticket.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day03/4_date_calc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day03/5_format.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day03/6_try_catch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day03/7_throw.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day03/8_hoist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day03/9_overload.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/1_String.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/2_anonyFun.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/3_scope.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/4_getNum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/5_closure_bs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/6_closure_btn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/7_closure_btns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day04/8_obj.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -61,8 +103,8 @@
       <file leaf-file-name="day04.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsCore/day04/day04.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2541">
-              <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+            <state relative-caret-position="2520">
+              <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/jsCore/day04/4_closure.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="109">
-              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
                 <element signature="e#111#218#0" expanded="false" />
               </folding>
@@ -105,7 +147,7 @@
         <entry file="file://$PROJECT_DIR$/jsCore/day04/6_closure_btn.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -287,7 +329,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="day04" />
+              <option name="myItemId" value="T_sourse" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -305,33 +347,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="day04" />
+              <option name="myItemId" value="T_sourse" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dolphin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dolphin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsCore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="day04" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="closure" />
+              <option name="myItemId" value="day01" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -368,11 +388,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dolphin\jsCore\T_sourse" />
       <recent name="C:\xampp\htdocs\dolphin\jsCore\day04" />
       <recent name="C:\xampp\htdocs\dolphin\jsCore\day04\scope" />
       <recent name="C:\xampp\htdocs\dolphin\Nodejs\day05" />
       <recent name="C:\xampp\htdocs\dolphin\Nodejs" />
-      <recent name="C:\xampp\htdocs\dolphin\Nodejs\day04" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\dolphin\AJAX\day02" />
@@ -545,11 +565,18 @@
       <option name="project" value="LOCAL" />
       <updated>1287975826071</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1 files">
+      <created>1287991919813</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1287991919813</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110634000" />
+    <option name="totallyTimeSpent" value="111324000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -845,8 +872,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jsCore/day04/day04.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2541">
-          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+        <state relative-caret-position="2520">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -854,7 +881,7 @@
     <entry file="file://$PROJECT_DIR$/jsCore/day04/4_closure.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="e#111#218#0" expanded="false" />
           </folding>
@@ -900,7 +927,7 @@
     <entry file="file://$PROJECT_DIR$/jsCore/day04/6_closure_btn.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding />
         </state>
       </provider>

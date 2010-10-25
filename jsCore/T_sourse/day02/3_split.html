@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+	<button id="btn_asc">升序↑</button>
+	<button id="btn_desc">降序↓</button>
+  <ul id="ul_scores">
+  	<li>65</li><li>80</li><li>90</li><li>75</li>
+  </ul>
+	<script>//DRY - Don't Repeat Yourself
+		btn_asc.onclick=function(){
+			ul_sort(ul_scores,1);
+		}
+		function ul_sort(ul,dir){
+		  var lis=ul.innerHTML
+								.replace(/^\s*<li>|<\/li>\s*$/ig,"")
+								.split(/<\/li>\s*<li>/i);
+      lis.sort(function(a,b){return dir*(a-b)});
+			ul.innerHTML=
+				"<li>"+lis.join("</li><li>")+"</li>";
+		}
+		btn_desc.onclick=function(){
+			ul_sort(ul_scores,-1);
+		}
+	</script>
+ </body>
+</html>

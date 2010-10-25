@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		function round(num,d){
+			num*=Math.pow(10,d);
+			num=Math.round(num);
+			return num/Math.pow(10,d);
+		}
+    var n=345.678;
+		console.log(
+			round(n,2),//345.68
+			round(n,0),//346
+			round(n,-1)//350
+		);
+	</script>
+ </body>
+</html>

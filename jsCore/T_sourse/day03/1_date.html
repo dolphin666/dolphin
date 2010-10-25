@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+		var date=new Date("2017/8/15 10:00");
+		var ms=date.getTime();
+		console.log(ms);
+
+		//1502762400000
+		//修改系统时区为英国伦敦时间
+		//打开空浏览器: new Date(ms) 查看对应的当地时间
+		//修改系统时区为美国东部时间
+		//打开空浏览器: new Date(ms) 查看对应的当地时间
+
+		var max_years=Number.MAX_VALUE/1000/3600/24/365;
+		console.log(max_years);
+
+		var now=new Date();
+		var birth=new Date("1999/12/26");
+		var ms=now-birth;
+		var days=ms/1000/3600/24;
+		console.log(days);
+	</script>
+ </body>
+</html>
