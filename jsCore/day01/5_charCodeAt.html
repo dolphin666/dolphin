@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var str="no zuo no die no can no bibi";
+        /*var i=-1;
+        do{
+            i=str.indexOf("no",i+1);
+            if(i!=-1){
+                //console.log("在位置"+i+"发现敏感词");
+            }else{
+                break;
+            }
+        }while (true);
+        var url="http://tmooc.cn/css/style.css";
+        var filename=url.slice(url.lastIndexOf("/")+1);
+        var ext=url.slice(url.lastIndexOf("."));
+        console.log(filename,ext);*/
+        var strl=str.replace(/no/ig,"***");
+        //console.log(strl);
+        var str="那天,我去了她家.我说:我草,你家真大!她想和我去草地野餐.我草草的手势了草地.她说:我去去就来.";
+        console.log(str);
+        str=str.replace(/我[去草]{1,2}/ig,function (kw) {
+            return kw.length==2?"**":"***";
+        });
+        console.log(str);
+    </script>
+</body>
+</html>

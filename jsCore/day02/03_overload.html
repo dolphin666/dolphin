@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function pay() {
+        if(arguments.length==0)
+            console.log("手机支付");
+        else if(arguments.length==1)
+            console.log("刷卡支付");
+        else
+            console.log("现金支付");
+    }
+    pay();
+    pay("payId","12313");
+    pay(100);
+    function fun() {
+        var arr=Array.prototype.slice.apply(arguments);
+        console.log(arr.__proto__);
+    }
+    fun()
+</script>
+</body>
+</html>

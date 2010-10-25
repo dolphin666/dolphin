@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul id="list">
+    <li>65</li>
+    <li>80</li>
+    <li>90</li>
+    <li>75</li>
+</ul>
+<button id="btn_asc">升序</button>
+<button id="btn_desc">升序</button>
+<script>
+    function ul_sort(ul,dir) {
+        var    lis=ul.innerHTML
+                     .replace(/^\s*<li>|<\/li>\s*$/ig,"")
+                     .split(/<\/li>\s*<li>/i);
+        //console.log(String(scores));
+        lis.sort(function (a, b) {
+            return dir*(a-b);
+        });
+        ul.innerHTML=
+            "<li>"+lis.join("</li><li>")+"</li>";
+    }
+    btn_asc.onclick=function () {
+        var ul_scores=document.getElementById("list");
+        ul_sort(ul_scores,1);
+    }
+    btn_desc.onclick=function () {
+        var ul_scores=document.getElementById("list");
+        ul_sort(ul_scores,-1);
+    }
+</script>
+</body>
+</html>

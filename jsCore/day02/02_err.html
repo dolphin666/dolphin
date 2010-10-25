@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var num=parseFloat(prompt("请输入数字"));
+    var d=prompt("输入小数位数");
+    try{
+        var r=num.toFixed(d);
+        console.log(r);
+    }catch(err){
+        alert("出错啦!");
+        console.log(String(err));
+    }
+    console.log("程序继续执行...");
+</script>
+</body>
+</html>
