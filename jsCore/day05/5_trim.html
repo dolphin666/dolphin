@@ -6,11 +6,10 @@
 </head>
 <body>
 <script>
-	var reg=/^\s|\s+$/g;
 	if(typeof String.prototype.trim!="function"){
 		document.write("调用自定义的trim");
 		String.prototype.trim=function () {
-			return this.replace(reg);
+			return this.replace(/^\s|\s+$/g,"");
 		}
 	}
 	var str="   zhang dong   ";
