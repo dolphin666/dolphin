@@ -2,57 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8f3aee3-afd1-4469-b09d-c395003f7fd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/constructor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/day05.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/inherits.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/isArray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/prototype chain.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/this.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/day06.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/getter_setter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/inherits_extends.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/day07.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day08/day08.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/1_obj.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/2_constructor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/3_inherits.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/4_indexOf.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/5_trim.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/6_prototype_bs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/7_isArray.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/10_Object_create.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/1_isArray.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/2_override.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/3_setPrototypeOf.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/4_inherits_extends.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/5_strict.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/6_defineProperty.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/7_getter_setter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/8_constructor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day06/9_freeze.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/10_for_let.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/11_arrow.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/12_arrow_this.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/13_default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/14_rest_spread.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/15_templateString.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/16_distruct.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/17_class.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/18_getter_setter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/1_inherits_extends.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/2_strict_this.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/3_call_apply_bind.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/4_every_some.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/5_forEach_map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/6_filter_reduce.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/7_hoist_let.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/8_block_let.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day07/9_closure_let.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day08/1_arguments_array.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day08/2_Set.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day08/3_for_of.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day08/4_Symbol.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day08/5_promise.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day05/day05.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day05/4_indexOf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day05/5_trim.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day05/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day05/demo02.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -71,73 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3_province.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AJAX/day02/3_province.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-              <folding>
-                <marker date="1287974713422" expanded="true" signature="267:359" ph="{...}" />
-                <marker date="1287974713422" expanded="true" signature="1044:1079" ph="{...}" />
-                <marker date="1287974713422" expanded="true" signature="1109:1167" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="split.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsCore/day01/split.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day04.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsCore/day04/day04.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2520">
-              <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4_closure.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsCore/day04/4_closure.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding>
-                <element signature="e#111#218#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsCore/day04/closure/1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsCore/day04/closure/2.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsCore/day04/closure/3.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="6_closure_btn.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsCore/day04/6_closure_btn.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -148,23 +35,84 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7_closure_btns.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="7_closure_btns.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsCore/day04/7_closure_btns.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="336">
               <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3_city.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AJAX/day02/3_city.php">
+      <file leaf-file-name="this.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day05/this.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day05.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day05/day05.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            <state relative-caret-position="3045">
+              <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCore/day05/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4_indexOf.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCore/day05/4_indexOf.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5_trim.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCore/day05/5_trim.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="13" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo02.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsCore/day05/demo02.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prototype chain.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day05/prototype chain.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inherits.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day05/inherits.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -186,11 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Nodejs/day04/gulp-test/js/test.js" />
-        <option value="$PROJECT_DIR$/Nodejs/day04/gulp-test/js/c.js" />
-        <option value="$PROJECT_DIR$/Nodejs/day04/gulp-test/js/b.js" />
-        <option value="$PROJECT_DIR$/Nodejs/day04/gulp-test/style.scss" />
-        <option value="$PROJECT_DIR$/Nodejs/day04/gulp-test/css/style.css" />
         <option value="$PROJECT_DIR$/Nodejs/day04/gulp-test/index.html" />
         <option value="$PROJECT_DIR$/Nodejs/day04/gulp-test/scss/style.scss" />
         <option value="$PROJECT_DIR$/Nodejs/day04/gulp-exercise/package.json" />
@@ -237,6 +180,11 @@
         <option value="$PROJECT_DIR$/jsCore/day04/4_closure.html" />
         <option value="$PROJECT_DIR$/jsCore/day04/6_closure_btn.html" />
         <option value="$PROJECT_DIR$/jsCore/day04/7_closure_btns.html" />
+        <option value="$PROJECT_DIR$/jsCore/T_sourse/day05/day05.md" />
+        <option value="$PROJECT_DIR$/jsCore/day05/demo.html" />
+        <option value="$PROJECT_DIR$/jsCore/day05/4_indexOf.html" />
+        <option value="$PROJECT_DIR$/jsCore/day05/5_trim.html" />
+        <option value="$PROJECT_DIR$/jsCore/day05/demo02.html" />
       </list>
     </option>
   </component>
@@ -323,10 +271,6 @@
               <option name="myItemId" value="jsCore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="T_sourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -339,6 +283,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jsCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day05" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,6 +422,7 @@
       <workItem from="1513909558805" duration="6238000" />
       <workItem from="1513921790887" duration="53000" />
       <workItem from="1514085560247" duration="15392000" />
+      <workItem from="1288072176787" duration="592000" />
     </task>
     <task id="LOCAL-00001" summary="43 files">
       <created>1514005372391</created>
@@ -559,11 +508,18 @@
       <option name="project" value="LOCAL" />
       <updated>1287992642306</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1 files">
+      <created>1287992855152</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1287992855152</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111556000" />
+    <option name="totallyTimeSpent" value="119654000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -577,7 +533,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="754" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21956088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21956088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -587,22 +543,13 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28456593" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21956088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -669,14 +616,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/gulp-exercise/index.html" />
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/index.html" />
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/webpack-demo/npm-debug.log" />
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/webpack-demo/public/bundle.js" />
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/webpack-demo/public/index.html" />
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/gulp-exercise/gulpfile.js" />
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/webpack-demo/app/style.css" />
-    <entry file="file://$PROJECT_DIR$/Nodejs/day05/webpack-homework/package.json" />
     <entry file="file://$PROJECT_DIR$/Nodejs/day05/mocha-demo/ti/sub.js" />
     <entry file="file://$PROJECT_DIR$/Nodejs/day05/mocha-demo/package.json" />
     <entry file="file://$PROJECT_DIR$/Nodejs/day05/mocha-demo/ti/add.js" />
@@ -818,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,7 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,11 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <marker date="1287974713422" expanded="true" signature="267:359" ph="{...}" />
-            <marker date="1287974713422" expanded="true" signature="1044:1079" ph="{...}" />
-            <marker date="1287974713422" expanded="true" signature="1109:1167" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -853,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -861,7 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
           <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -869,9 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#111#218#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,12 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding>
-            <marker date="1287974713406" expanded="true" signature="367:940" ph="{...}" />
-            <marker date="1287974713406" expanded="true" signature="602:915" ph="{...}" />
-            <marker date="1287974713406" expanded="true" signature="602:919" ph="{...}" />
-            <marker date="1287974713406" expanded="true" signature="645:875" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -921,8 +841,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jsCore/day04/7_closure_btns.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="336">
           <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day05/this.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day05/day05.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day05/prototype chain.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day05/inherits.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/day05/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/day05/4_indexOf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/day05/5_trim.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/day05/demo02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding />
         </state>
       </provider>

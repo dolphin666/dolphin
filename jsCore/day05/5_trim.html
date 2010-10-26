@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script>
+	var reg=/^\s|\s+$/g;
+	if(typeof String.prototype.trim!="function"){
+		document.write("调用自定义的trim");
+		String.prototype.trim=function () {
+			return this.replace(reg);
+		}
+	}
+	var str="   zhang dong   ";
+	document.write(str.trim());
+</script>
+</body>
+</html>

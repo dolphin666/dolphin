@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script>
+	function Student(sname, age) {
+		this.sname=sname;
+		this.age=age;
+	}
+	Student.prototype.intr=function () {
+		className="初一2班";
+		console.log("I'm "+this.sname+",I'm "+this.age+" "+className);
+	}
+	var lilei=new Student("Li Lei",20);
+	var hanmeimei=new Student("Han Meimei",22);
+	lilei.intr();
+	hanmeimei.intr();
+	console.log(lilei.__proto__===hanmeimei.__proto__);
+	lilei.sname="Li Xiaolei";
+	lilei.intr();
+	Student.prototype.className="初二2班";
+	console.log(lilei.className,hanmeimei.className);
+</script>
+</body>
+</html>
