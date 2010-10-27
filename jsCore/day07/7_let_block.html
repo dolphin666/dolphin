@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script>
+	var t=0;//操作累计的用时
+	function connect() {
+		console.log("连接数据库...耗时0.3s");
+		t+=0.3;
+	}
+	function query() {
+		console.log("执行查询...耗时0.8s");
+		t+=0.8;
+		var err=false;
+		if(err){
+			let t=new Date().toLocaleString();
+			console.log("出错啦！at："+t);
+		}
+	}
+	connect();
+	query();
+	console.log("总耗时："+t);
+</script>
+</body>
+</html>

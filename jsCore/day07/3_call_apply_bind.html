@@ -6,6 +6,17 @@
 </head>
 <body>
 <script>
+	if(!("bind" in Function.prototype)){
+		Function.prototype.bind=function (obj) {
+			var fun = this;
+			var args=Array.prototype.slice.call(arguments,1);
+			return function () {
+				var sals=Array.prototype.slice.call(arguments);
+				fun.apply(obj,arguments)
+			}
+		}
+	}
+
 	function calc(base, bonus1, bonus2) {
 		console.log(
 				this.ename+"的总工资是："+(base+bonus1+bonus2)

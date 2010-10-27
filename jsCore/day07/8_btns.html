@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<button>click me!</button>
+<button>click me!</button>
+<button>click me!</button>
+<button>click me!</button>
+<button>click me!</button>
+<button>click me!</button>
+<button>click me!</button>
+<button>click me!</button>
+<script>
+	var btns=
+			document.getElementsByTagName("button");
+	//闭包三步
+	/*function factory(i){//参数i是受保护的变量
+		return function(){
+			alert("我是第"+i+"个");
+		}
+	}*/
+	for(let i=0;i<btns.length;i++){
+		//(function (i) {
+			btns[i].onclick=function () {
+				alert(i+1);
+			}//匿名函数自调
+		//})(i)
+	}//i=8
+	/*
+	 btns[0].onclick=
+	 function(){alert(我是第i=0个)}
+	 btns[1].onclick=
+	 function(){alert(我是第i=1个)}
+	 btns[2].onclick=
+	 function(){alert(我是第i=2个)}
+	 ... ...
+	 */
+</script>
+</body>
+</html>
