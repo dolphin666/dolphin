@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<button id="btn">click me!</button>
+<script>
+	var Bob={
+		sname:"鲍勃",
+		friends:["Jack","Rose","Tom","Jerry"],
+		intr(){
+			this.friends.forEach(friend=>
+				console.log(this.sname+"认识"+friend)
+			/*.bind(this)*/)
+		}
+	}
+	Bob.intr();
+//事件处理函数中不能
+	var btns=document.getElementById("btn");
+		btns.onmouseover=function () {
+			this.style.background="Yellow";
+		}
+		btns.onmouseout=function () {
+			this.style.background="";
+		}
+</script>
+</body>
+</html>
