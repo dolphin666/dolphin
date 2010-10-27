@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script>
+	var arr=[1,2,3,4,5];
+	arr.forEach(
+			function (val,i,arr) {
+				arr[i]=val*2;
+			}
+	);
+	console.log(arr);
+	var enens=arr.map(
+			function (val,i,arr) {
+				return val*2;
+			}
+	);
+	console.log(arr);
+	console.log(enens);
+	var arr1=[1,2,3,4,5];
+	var evens1=arr1.filter(
+			function (val, i, arr) {
+				return val%2==0;
+			}
+	)
+	console.log(arr1);
+	console.log(evens1);
+	var arr=[1,3,5,7,9];
+	var sum=arr.reduce(
+			function (prev, val) {
+				return prev+val;
+			}
+	)
+	console.log(sum);
+</script>
+</body>
+</html>
