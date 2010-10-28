@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script src="ajax.js"></script>
+<script>
+	ajax("get","05-1-connect.php","","text")
+			.then(function (data) {
+				//data接住onreadyStatechange
+			})
+			.catch(function (err) {
+				console.log(err)
+			})
+</script>
+</body>
+</html>

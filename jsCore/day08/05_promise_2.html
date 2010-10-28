@@ -8,36 +8,53 @@
 <script src="../ajax.js"></script>
 <script>
 	function conn() {
-		return new Promise(function (callback) {
-			ajax("get","05-1-connect.php","","text")
-					.then(text=>{
-						console.log(text);
-						callback();
+		return new Promise((resolve, reject) => {
+			ajax("get", "05-1-connect.php", "", "text")
+					.then(text => {
+
+						var r = Math.random() < 0.8;
+						if (r) {
+							console.log(text)
+							resolve();
+						}
+						else
+							reject("连接出错!");
 					});
 		})
 	}
 	function query(callback) {
-		return new Promise(function (callback) {
+		return new Promise((resolve, reject) => {
 			ajax("get", "05-2-query.php", "", "text")
 					.then(text => {
-						console.log(text);
-						callback();
+						var r = Math.random() < 0.8;
+						if (r) {
+							console.log(text);
+							resolve();
+						}
+						else
+							reject("查询出错!");
 					});
 		});
 	}
 	function response() {
-		return new Promise(function (callback) {
+		return new Promise((resolve, reject) => {
 			ajax("get", "05-3-response.php", "", "text")
 					.then(text => {
-						console.log(text);
-						callback();
+						var r = Math.random() < 0.8;
+						if (r) {
+							console.log(text);
+							resolve();
+						}
+						else
+							reject("返回响应出错!");
 					});
 		});
 	}
 	function end() {
 		console.log("操作完成！");
 	}
-	conn().then(query).then(response).then(end);
+	conn().then(query).then(response).then(end)
+			.catch((err) => console.log(err))
 </script>
 </body>
 </html>
