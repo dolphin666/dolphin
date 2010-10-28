@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script src="../ajax.js"></script>
+<script>
+	function conn() {
+		return new Promise(function (callback) {
+			ajax("get","05-1-connect.php","","text")
+					.then(text=>{
+						console.log(text);
+						callback();
+					});
+		})
+	}
+	function query(callback) {
+		return new Promise(function (callback) {
+			ajax("get", "05-2-query.php", "", "text")
+					.then(text => {
+						console.log(text);
+						callback();
+					});
+		});
+	}
+	function response() {
+		return new Promise(function (callback) {
+			ajax("get", "05-3-response.php", "", "text")
+					.then(text => {
+						console.log(text);
+						callback();
+					});
+		});
+	}
+	function end() {
+		console.log("操作完成！");
+	}
+	conn().then(query).then(response).then(end);
+</script>
+</body>
+</html>

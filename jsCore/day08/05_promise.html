@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script src="../ajax.js"></script>
+<script>
+	function conn(callback) {
+		ajax("get","05-1-connect.php","","text")
+				.then(text=>{
+					console.log(text);
+					callback();
+				});
+	}
+	function query(callback) {
+		ajax("get","05-2-query.php","","text")
+				.then(text=>{
+					console.log(text);
+					callback();
+				});
+	}
+	function response(callback) {
+		ajax("get", "05-3-response.php", "", "text")
+				.then(text => {
+					console.log(text);
+					callback();
+				});
+	}
+	conn(function () {
+		query(function () {
+			response()
+		});
+	});
+</script>
+</body>
+</html>
