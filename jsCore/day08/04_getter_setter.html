@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script>
+	class Emp{
+		constructor(id,ename,age){
+			this.id=id;
+			this.ename=ename;
+			this.age=age;
+		}
+		get age(){return this._age;}
+		set age(val){
+			console.log("自动调用set:"+val);
+			if(val>=18&&val<=25)
+				this._age=val;
+			else
+				throw new RangeError("年龄必须介于18~68之间")
+		}
+	}
+	var eric=new Emp(1001,"Eric",25);
+	console.log(eric.age);
+	eric.age=-2;
+	console.log(eric.age);
+</script>
+</body>
+</html>

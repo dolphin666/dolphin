@@ -122,8 +122,9 @@
 				const LIWIDTH=960;
 				var htmlImgs="";//保存图片li的HTML片段
 				var htmlIdxs="";//保存导航圆点的li的html片段
-				for(var i=0;i<data.length;i++){
-					var p=data[i];
+				/*for(var i=0;i<data.length;i++){
+					var p=data[i];*/
+				for(var p of data){
 					htmlImgs+=`
 						<li>
               <a href="${p.href}" title="${p.title}">
