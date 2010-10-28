@@ -22,10 +22,10 @@ function ajax(method,url,postStr,dataType="json"){
         if(xhr.status == 200){
           if(url.indexOf(".php")!=-1
             &&dataType.toLowerCase()=="json"){
-            console.log(xhr.responseText);
+            //console.log(xhr.responseText);
             resolve(JSON.parse(xhr.responseText));
           }else{
-            console.log(xhr.responseText);
+            //console.log(xhr.responseText);
             resolve(xhr.responseText);
           }
         }else
