@@ -1,442 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8f3aee3-afd1-4469-b09d-c395003f7fd2" name="Default" comment="xuezi files">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xuezi-project-s/data/01-index/banners.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xuezi-project-s/js/01-index.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/data/01-index/banners.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/js/01-index.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/01-index.html" afterPath="$PROJECT_DIR$/xuezi-project-s/01-index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/03-header.html" afterPath="$PROJECT_DIR$/xuezi-project-s/03-header.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/04-products.html" afterPath="$PROJECT_DIR$/xuezi-project-s/04-products.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/05-product-details.html" afterPath="$PROJECT_DIR$/xuezi-project-s/05-product-details.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/css/base.css" afterPath="$PROJECT_DIR$/xuezi-project-s/css/base.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/css/header.css" afterPath="$PROJECT_DIR$/xuezi-project-s/css/header.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/css/index.css" afterPath="$PROJECT_DIR$/xuezi-project-s/css/index.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/css/product-details.css" afterPath="$PROJECT_DIR$/xuezi-project-s/css/product-details.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/css/products.css" afterPath="$PROJECT_DIR$/xuezi-project-s/css/products.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/data/01-index/floors.php" afterPath="$PROJECT_DIR$/xuezi-project-s/data/01-index/floors.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/data/03-header/login.php" afterPath="$PROJECT_DIR$/xuezi-project-s/data/03-header/login.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/data/03-header/search.php" afterPath="$PROJECT_DIR$/xuezi-project-s/data/03-header/search.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/data/03-header/user.php" afterPath="$PROJECT_DIR$/xuezi-project-s/data/03-header/user.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/data/04-products/products.php" afterPath="$PROJECT_DIR$/xuezi-project-s/data/04-products/products.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/data/05-product-details/details.php" afterPath="$PROJECT_DIR$/xuezi-project-s/data/05-product-details/details.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/data/cart/add.php" afterPath="$PROJECT_DIR$/xuezi-project-s/data/cart/add.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/data/cart/list.php" afterPath="$PROJECT_DIR$/xuezi-project-s/data/cart/list.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/data/init.php" afterPath="$PROJECT_DIR$/xuezi-project-s/data/init.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/404/404_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/404/404_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/404/404_img2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/404/404_img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/500/500_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/500/500_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/500/500_img2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/500/500_img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/avatar/1.html" afterPath="$PROJECT_DIR$/xuezi-project-s/img/avatar/1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/avatar/default.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/avatar/default.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/cart/product_normal.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/cart/product_normal.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/cart/product_simg1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/cart/product_simg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/cart/product_true.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/cart/product_true.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/favicon.ico" afterPath="$PROJECT_DIR$/xuezi-project-s/img/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/a-meal_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/a-meal_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/a_meal_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/a_meal_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/breakfast_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/breakfast_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/breakfast_img2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/breakfast_img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/drink_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/drink_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/foodstore_adriss.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/foodstore_adriss.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/foodstore_car_2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/foodstore_car_2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/foodstore_icon1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/foodstore_icon1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/foodstore_icon2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/foodstore_icon2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/foodstore_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/foodstore_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/foodstore_img2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/foodstore_img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/foodstore_img3.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/foodstore_img3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/foodstore_img3_1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/foodstore_img3_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/foodstore_img4.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/foodstore_img4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/foodstore_img5.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/foodstore_img5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/foodstore_img6.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/foodstore_img6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/foodstore_img7.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/foodstore_img7.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/foodstore_top.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/foodstore_top.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/lunch_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/lunch_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/foodstore/lunch_img2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/foodstore/lunch_img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/footer/android.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/footer/android.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/footer/erweima.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/footer/erweima.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/footer/footerFont.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/footer/footerFont.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/footer/icon1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/footer/icon1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/footer/icon2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/footer/icon2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/footer/icon3.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/footer/icon3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/footer/icon4.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/footer/icon4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/footer/ios.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/footer/ios.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/footer/logo.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/footer/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/footer/sinablog.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/footer/sinablog.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/footer/wechat.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/footer/wechat.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/header/care.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/header/care.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/header/care1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/header/care1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/header/header_normal.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/header/header_normal.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/header/header_true.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/header/header_true.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/header/logo.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/header/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/header/order.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/header/order.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/header/order1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/header/order1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/header/search.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/header/search.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/header/search2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/header/search2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/header/shop_car.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/header/shop_car.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/header/shop_car1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/header/shop_car1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/iconlist_1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/iconlist_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/arrow-left.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/arrow-left.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/arrow-right.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/arrow-right.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/banner1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/banner1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/banner2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/banner2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/banner3.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/banner3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/banner4.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/banner4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/computer_icon.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/computer_icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/computer_icon1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/computer_icon1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/index_Sbanner_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/index_Sbanner_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/index_Sbanner_img2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/index_Sbanner_img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/index_Sbanner_img3.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/index_Sbanner_img3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/index_guild.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/index_guild.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/index_hot_food_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/index_hot_food_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/index_hot_food_img2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/index_hot_food_img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/index_hot_food_img3.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/index_hot_food_img3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/index_hot_study_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/index_hot_study_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/index_hot_study_img2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/index_hot_study_img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/index_hot_study_img3.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/index_hot_study_img3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/stationery_icon.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/stationery_icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/stationery_icon1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/stationery_icon1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/study_computer_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/study_computer_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/study_computer_img2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/study_computer_img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/study_computer_img3.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/study_computer_img3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/study_computer_img4.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/study_computer_img4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/study_computer_img5.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/study_computer_img5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/study_stationery_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/study_stationery_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/study_stationery_img2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/study_stationery_img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/study_stationery_img3.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/study_stationery_img3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/study_stationery_img4.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/study_stationery_img4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/study_stationery_img5.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/study_stationery_img5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/index/wenan.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/index/wenan.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/loading.gif" afterPath="$PROJECT_DIR$/xuezi-project-s/img/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/login/mm.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/login/mm.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/login/yhm.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/login/yhm.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/lookforward/lookforward_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/lookforward/lookforward_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/model/model_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/model/model_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/model/model_img2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/model/model_img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/model/model_img3.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/model/model_img3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myCollect/product_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myCollect/product_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myCollect/product_img2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myCollect/product_img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myCollect/product_img3.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myCollect/product_img3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myCollect/product_img4.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myCollect/product_img4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myCollect/product_img5.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myCollect/product_img5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myCollect/product_img6.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myCollect/product_img6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myCollect/product_normal.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myCollect/product_normal.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myCollect/product_normal_big.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myCollect/product_normal_big.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myCollect/product_true.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myCollect/product_true.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myCollect/product_true_big.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myCollect/product_true_big.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myOrder/car.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myOrder/car.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myOrder/kefuf.gif" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myOrder/kefuf.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myOrder/myOrder.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myOrder/myOrder.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myOrder/myOrder1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myOrder/myOrder1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myOrder/myOrder2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myOrder/myOrder2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myOrder/myOrder3.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myOrder/myOrder3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myOrder/pcenter_icon1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myOrder/pcenter_icon1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myOrder/pcenter_icon2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myOrder/pcenter_icon2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myOrder/pcenter_icon3.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myOrder/pcenter_icon3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myOrder/pcenter_icon4.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myOrder/pcenter_icon4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/myOrder/product_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/myOrder/product_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/orderConfirm/product_simg1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/orderConfirm/product_simg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/orderinfo/kefuf.gif" afterPath="$PROJECT_DIR$/xuezi-project-s/img/orderinfo/kefuf.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/orderinfo/orderinfo_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/orderinfo/orderinfo_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/orderinfo/orderinfo_img1_2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/orderinfo/orderinfo_img1_2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/orderinfo/orderinfo_img2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/orderinfo/orderinfo_img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/orderinfo/orderinfo_img2_1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/orderinfo/orderinfo_img2_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/orderinfo/orderinfo_img3.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/orderinfo/orderinfo_img3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/orderinfo/orderinfo_img3_1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/orderinfo/orderinfo_img3_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/orderinfo/orderinfo_img4.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/orderinfo/orderinfo_img4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/orderinfo/orderinfo_img4_1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/orderinfo/orderinfo_img4_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/orderinfo/orderinfo_img5.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/orderinfo/orderinfo_img5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/orderinfo/orderinfo_img5_1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/orderinfo/orderinfo_img5_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/orderinfo/orderinfo_img6.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/orderinfo/orderinfo_img6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/orderinfo/orderinfo_img6_2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/orderinfo/orderinfo_img6_2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/orderinfo/product_simg1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/orderinfo/product_simg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/pay/pay_fail.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/pay/pay_fail.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/pay/pay_img1.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/pay/pay_img1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/pay/pay_img2.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/pay/pay_img2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/pay/pay_img3.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/pay/pay_img3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/pay/pay_img4.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/pay/pay_img4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/pay/pay_img5.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/pay/pay_img5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/pay/pay_succ.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/pay/pay_succ.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/pay/talk.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/pay/talk.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/57b15612N81dc489d.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/57b15612N81dc489d.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/57b15616N1e285f09.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/57b15616N1e285f09.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/57bfa672N20953b71.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/57bfa672N20953b71.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/58119b8aNb84f1e22.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/58119b8aNb84f1e22.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/583d2fb0N44aa29cf.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/583d2fb0N44aa29cf.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/583d2fd5N33db758b.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/583d2fd5N33db758b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/583d3036Nef20d28f.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/583d3036Nef20d28f.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/583d304aN4722f8d5.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/583d304aN4722f8d5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/583d359aN47f3276b.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/583d359aN47f3276b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/586f747eNfdc5f737.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/586f747eNfdc5f737.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/586f7483N695168a2.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/586f7483N695168a2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/586f7486Nf809b915.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/586f7486Nf809b915.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/586f748bN28dbcbb2.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/586f748bN28dbcbb2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/586f748fNd2861229.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/586f748fNd2861229.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/586f7493N5a3758af.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/586f7493N5a3758af.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/586f7497N20aac53e.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/586f7497N20aac53e.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/586f74a3N1f47e1f2.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/586f74a3N1f47e1f2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/586f74acN9da4ea13.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/586f74acN9da4ea13.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/586f74b0N0af5a884.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/586f74b0N0af5a884.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/586f74b6N10c0f4a0.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/586f74b6N10c0f4a0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/586f74c0N452b66a1.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/586f74c0N452b66a1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/586f74c4N07c85d41.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/586f74c4N07c85d41.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/58745160N7de01df6.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/58745160N7de01df6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/5886e317Nbc52a580.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/5886e317Nbc52a580.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/589458f0N90e67b9d.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/589458f0N90e67b9d.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/58ca2b14Nd5c09fcd.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/58ca2b14Nd5c09fcd.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/58ca2b28Na5a22f83.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/58ca2b28Na5a22f83.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/58ca2b51Nbf258c3b.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/58ca2b51Nbf258c3b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/58ca2b67N436e60de.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/58ca2b67N436e60de.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/58ca3012Nc99ab61f.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/58ca3012Nc99ab61f.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/58cfbc2aN51481cf1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/58cfbc2aN51481cf1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/58d0bfcbNc96d061c.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/58d0bfcbNc96d061c.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/58d0bfceNc0694135.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/58d0bfceNc0694135.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/58d0bfd1Nea212a7a.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/58d0bfd1Nea212a7a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/58d2350bNb98d64e2.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/58d2350bNb98d64e2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/58d23597N878bf1f7.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/58d23597N878bf1f7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/58d87221Na033954c.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/58d87221Na033954c.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/58e5e4b5N862f8aa1.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/58e5e4b5N862f8aa1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/58f9de03Nd67611dc.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/58f9de03Nd67611dc.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/59003afdN7d9208b8.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/59003afdN7d9208b8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/59003d3fNd4e6c74e.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/59003d3fNd4e6c74e.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/59003d49Nd9aa8623.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/59003d49Nd9aa8623.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/59003d53N79717f17.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/59003d53N79717f17.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/59003db4N5441df2e.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/59003db4N5441df2e.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/59143b58N0f24f48d.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/59143b58N0f24f48d.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/detail/59190fe7N6a9fb112.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/detail/59190fe7N6a9fb112.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5787107bN73d05ad5.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5787107bN73d05ad5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57871083Nefe2d3d6.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57871083Nefe2d3d6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57871086N86c8f0ab.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57871086N86c8f0ab.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5787109cNaf26e3b0.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5787109cNaf26e3b0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/578710a0N07795fe5.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/578710a0N07795fe5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/578710a3Nc498e3ea.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/578710a3Nc498e3ea.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57ad359dNd4a6f130.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57ad359dNd4a6f130.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57ad8846N64ac3c79.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57ad8846N64ac3c79.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57b12a31N8f4f75a3.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57b12a31N8f4f75a3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57ba6a27Nbb8d2dcf.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57ba6a27Nbb8d2dcf.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57ba6a38N4f4670bd.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57ba6a38N4f4670bd.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57ba6a3dN54779e6a.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57ba6a3dN54779e6a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57ba6a47N19af9c97.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57ba6a47N19af9c97.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57ba6a4cNb83e292a.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57ba6a4cNb83e292a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57ba6a56N1e3e3d63.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57ba6a56N1e3e3d63.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57bbc38eN9def8042.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57bbc38eN9def8042.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57e1ff09Nf610fea3.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57e1ff09Nf610fea3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57e1ff17N286390a9.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57e1ff17N286390a9.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57e1ff2fN8a36d0fe.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57e1ff2fN8a36d0fe.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57e3b072N661cd00d.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57e3b072N661cd00d.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57e52dffNa4d8ce2c.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57e52dffNa4d8ce2c.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57e52e03N4ec367dd.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57e52e03N4ec367dd.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/57e52e06N116974f7.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/57e52e06N116974f7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5819a0ebNefd901bc.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5819a0ebNefd901bc.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5819a106Necf0abb8.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5819a106Necf0abb8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5819a10bN2ea5c8e0.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5819a10bN2ea5c8e0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5819a10fNd0f96a03.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5819a10fNd0f96a03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5819a114Ne0cd75db.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5819a114Ne0cd75db.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5819a133N03021b26.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5819a133N03021b26.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5836b979N85c3852b.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5836b979N85c3852b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5836b981Nd60fd02a.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5836b981Nd60fd02a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/584b5678Nbc9f1e70.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/584b5678Nbc9f1e70.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/584b567dNd9c58341.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/584b567dNd9c58341.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/587f476aNcfbf7869.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/587f476aNcfbf7869.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58985861N615a3581.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58985861N615a3581.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58985867Nf8909d49.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58985867Nf8909d49.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5898586cNe235284b.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5898586cNe235284b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58985881N0a78dea2.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58985881N0a78dea2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58985883Nd4aec745.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58985883Nd4aec745.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58a2c667Ne2b5cb73.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58a2c667Ne2b5cb73.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58a2c668N0159a26f.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58a2c668N0159a26f.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58a2c668N0be41fb0.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58a2c668N0be41fb0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58a2c668N7293a0d1.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58a2c668N7293a0d1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58a2c668N800be261.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58a2c668N800be261.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58a2c669N4f92f8cb.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58a2c669N4f92f8cb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58a2c669Nf884ac31.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58a2c669Nf884ac31.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58a2c66aNcd10ee32.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58a2c66aNcd10ee32.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58bfc2afNd44b4135.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58bfc2afNd44b4135.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58dc76d5N8a0947a3.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58dc76d5N8a0947a3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58e5c226N4836a223.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58e5c226N4836a223.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58f46de7N0dafbae3.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58f46de7N0dafbae3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/58fd9c54Nec723d68.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/58fd9c54Nec723d68.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/590a98f9N8039f132.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/590a98f9N8039f132.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5913f8ffN49fa143c.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5913f8ffN49fa143c.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5913f903Nbffaa4fd.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5913f903Nbffaa4fd.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5913f907Ncbc65469.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5913f907Ncbc65469.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5913f90bN1b563f42.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5913f90bN1b563f42.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5913f93bNe4d2b3e5.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5913f93bNe4d2b3e5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/lg/5913f93fNfd79b4fc.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/lg/5913f93fNfd79b4fc.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5787107bN73d05ad5.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5787107bN73d05ad5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57871083Nefe2d3d6.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57871083Nefe2d3d6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57871086N86c8f0ab.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57871086N86c8f0ab.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5787109cNaf26e3b0.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5787109cNaf26e3b0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/578710a0N07795fe5.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/578710a0N07795fe5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/578710a3Nc498e3ea.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/578710a3Nc498e3ea.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57ad359dNd4a6f130.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57ad359dNd4a6f130.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57ad8846N64ac3c79.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57ad8846N64ac3c79.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57b12a31N8f4f75a3.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57b12a31N8f4f75a3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57ba6a27Nbb8d2dcf.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57ba6a27Nbb8d2dcf.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57ba6a38N4f4670bd.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57ba6a38N4f4670bd.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57ba6a3dN54779e6a.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57ba6a3dN54779e6a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57ba6a47N19af9c97.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57ba6a47N19af9c97.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57ba6a4cNb83e292a.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57ba6a4cNb83e292a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57ba6a56N1e3e3d63.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57ba6a56N1e3e3d63.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57bbc38eN9def8042.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57bbc38eN9def8042.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57e1ff09Nf610fea3.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57e1ff09Nf610fea3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57e1ff17N286390a9.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57e1ff17N286390a9.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57e1ff2fN8a36d0fe.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57e1ff2fN8a36d0fe.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57e3b072N661cd00d.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57e3b072N661cd00d.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57e52dffNa4d8ce2c.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57e52dffNa4d8ce2c.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57e52e03N4ec367dd.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57e52e03N4ec367dd.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/57e52e06N116974f7.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/57e52e06N116974f7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5819a0ebNefd901bc.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5819a0ebNefd901bc.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5819a106Necf0abb8.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5819a106Necf0abb8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5819a10bN2ea5c8e0.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5819a10bN2ea5c8e0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5819a10fNd0f96a03.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5819a10fNd0f96a03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5819a114Ne0cd75db.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5819a114Ne0cd75db.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5819a133N03021b26.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5819a133N03021b26.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5836b979N85c3852b.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5836b979N85c3852b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5836b981Nd60fd02a.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5836b981Nd60fd02a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/584b5678Nbc9f1e70.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/584b5678Nbc9f1e70.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/584b567dNd9c58341.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/584b567dNd9c58341.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/587f476aNcfbf7869.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/587f476aNcfbf7869.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58985861N615a3581.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58985861N615a3581.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58985867Nf8909d49.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58985867Nf8909d49.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5898586cNe235284b.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5898586cNe235284b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58985881N0a78dea2.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58985881N0a78dea2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58985883Nd4aec745.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58985883Nd4aec745.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58a2c667Ne2b5cb73.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58a2c667Ne2b5cb73.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58a2c668N0159a26f.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58a2c668N0159a26f.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58a2c668N0be41fb0.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58a2c668N0be41fb0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58a2c668N7293a0d1.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58a2c668N7293a0d1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58a2c668N800be261.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58a2c668N800be261.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58a2c669N4f92f8cb.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58a2c669N4f92f8cb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58a2c669Nf884ac31.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58a2c669Nf884ac31.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58a2c66aNcd10ee32.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58a2c66aNcd10ee32.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58bfc2afNd44b4135.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58bfc2afNd44b4135.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58dc76d5N8a0947a3.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58dc76d5N8a0947a3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58e5c226N4836a223.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58e5c226N4836a223.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58f46de7N0dafbae3.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58f46de7N0dafbae3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/58fd9c54Nec723d68.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/58fd9c54Nec723d68.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/590a98f9N8039f132.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/590a98f9N8039f132.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5913f8ffN49fa143c.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5913f8ffN49fa143c.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5913f903Nbffaa4fd.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5913f903Nbffaa4fd.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5913f907Ncbc65469.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5913f907Ncbc65469.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5913f90bN1b563f42.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5913f90bN1b563f42.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5913f90fN99370675.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5913f90fN99370675.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5913f93bNe4d2b3e5.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5913f93bNe4d2b3e5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/md/5913f93fNfd79b4fc.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/md/5913f93fNfd79b4fc.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57871083Nefe2d3d6.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57871083Nefe2d3d6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57871086N86c8f0ab.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57871086N86c8f0ab.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5787109cNaf26e3b0.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5787109cNaf26e3b0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/578710a0N07795fe5.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/578710a0N07795fe5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/578710a3Nc498e3ea.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/578710a3Nc498e3ea.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57ad359dNd4a6f130.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57ad359dNd4a6f130.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57ad8846N64ac3c79.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57ad8846N64ac3c79.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57b12a31N8f4f75a3.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57b12a31N8f4f75a3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57ba6a27Nbb8d2dcf.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57ba6a27Nbb8d2dcf.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57ba6a38N4f4670bd.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57ba6a38N4f4670bd.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57ba6a3dN54779e6a.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57ba6a3dN54779e6a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57ba6a47N19af9c97.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57ba6a47N19af9c97.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57ba6a4cNb83e292a.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57ba6a4cNb83e292a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57ba6a56N1e3e3d63.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57ba6a56N1e3e3d63.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57bbc38eN9def8042.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57bbc38eN9def8042.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57e1ff09Nf610fea3.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57e1ff09Nf610fea3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57e1ff17N286390a9.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57e1ff17N286390a9.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57e1ff2fN8a36d0fe.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57e1ff2fN8a36d0fe.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57e3b072N661cd00d.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57e3b072N661cd00d.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57e52dffNa4d8ce2c.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57e52dffNa4d8ce2c.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57e52e03N4ec367dd.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57e52e03N4ec367dd.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/57e52e06N116974f7.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/57e52e06N116974f7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5819a0ebNefd901bc.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5819a0ebNefd901bc.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5819a106Necf0abb8.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5819a106Necf0abb8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5819a10bN2ea5c8e0.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5819a10bN2ea5c8e0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5819a10fNd0f96a03.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5819a10fNd0f96a03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5819a114Ne0cd75db.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5819a114Ne0cd75db.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5819a133N03021b26.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5819a133N03021b26.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5836b979N85c3852b.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5836b979N85c3852b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5836b981Nd60fd02a.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5836b981Nd60fd02a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/584b5678Nbc9f1e70.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/584b5678Nbc9f1e70.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/584b567dNd9c58341.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/584b567dNd9c58341.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/587f476aNcfbf7869.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/587f476aNcfbf7869.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58985861N615a3581.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58985861N615a3581.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58985867Nf8909d49.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58985867Nf8909d49.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5898586cNe235284b.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5898586cNe235284b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58985881N0a78dea2.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58985881N0a78dea2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58985883Nd4aec745.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58985883Nd4aec745.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58a2c667Ne2b5cb73.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58a2c667Ne2b5cb73.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58a2c668N0159a26f.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58a2c668N0159a26f.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58a2c668N0be41fb0.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58a2c668N0be41fb0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58a2c668N7293a0d1.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58a2c668N7293a0d1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58a2c668N800be261.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58a2c668N800be261.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58a2c669N4f92f8cb.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58a2c669N4f92f8cb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58a2c669Nf884ac31.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58a2c669Nf884ac31.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58a2c66aNcd10ee32.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58a2c66aNcd10ee32.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58bfc2afNd44b4135.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58bfc2afNd44b4135.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58dc76d5N8a0947a3.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58dc76d5N8a0947a3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58e5c226N4836a223.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58e5c226N4836a223.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58f46de7N0dafbae3.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58f46de7N0dafbae3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/58fd9c54Nec723d68.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/58fd9c54Nec723d68.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/590a98f9N8039f132.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/590a98f9N8039f132.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5913f8ffN49fa143c.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5913f8ffN49fa143c.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5913f903Nbffaa4fd.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5913f903Nbffaa4fd.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5913f907Ncbc65469.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5913f907Ncbc65469.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5913f90bN1b563f42.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5913f90bN1b563f42.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5913f90fN99370675.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5913f90fN99370675.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5913f93bNe4d2b3e5.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5913f93bNe4d2b3e5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product/sm/5913f93fNfd79b4fc.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product/sm/5913f93fNfd79b4fc.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/kefuf.gif" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/kefuf.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_3.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_4.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_icon_1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_icon_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_icon_2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_icon_2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_icon_3.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_icon_3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_icon_4.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_icon_4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_icon_bao.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_icon_bao.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_icon_bao_1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_icon_bao_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_icon_d.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_icon_d.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_icon_d_1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_icon_d_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_icon_g.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_icon_g.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_icon_g_1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_icon_g_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_icon_t.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_icon_t.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_icon_t_1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_icon_t_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_icon_up.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_icon_up.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_icon_up_1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_icon_up_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_img1.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_img1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_img15.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_img15.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_img16.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_img16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_img1big.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_img1big.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_img2.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_img2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_img2big.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_img2big.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_img3.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_img3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_img3big.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_img3big.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_img4.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_img4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_img4big.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_img4big.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_img5.jpg" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_img5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_img5big.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_img5big.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_img6.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_img6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_img7.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_img7.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_img8.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_img8.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/product_detail/product_detail_img9.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/product_detail/product_detail_img9.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/recommend/recommend_img1.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/recommend/recommend_img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/recommend/recommend_img2.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/recommend/recommend_img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/recommend/recommend_img3.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/recommend/recommend_img3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/recommend/recommend_img4.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/recommend/recommend_img4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/register/bg.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/register/bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/register/index_guild.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/register/index_guild.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/register/mm.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/register/mm.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/register/tan.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/register/tan.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/register/true.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/register/true.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/register/yhm.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/register/yhm.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/uc/select.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/uc/select.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/uc/un_select.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/uc/un_select.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/img/uc/user50.png" afterPath="$PROJECT_DIR$/xuezi-project-s/img/uc/user50.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/js/03-header.js" afterPath="$PROJECT_DIR$/xuezi-project-s/js/03-header.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/js/04-products.js" afterPath="$PROJECT_DIR$/xuezi-project-s/js/04-products.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/js/05-product-details.js" afterPath="$PROJECT_DIR$/xuezi-project-s/js/05-product-details.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/js/ajax.js" afterPath="$PROJECT_DIR$/xuezi-project-s/js/ajax.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/js/myQuery.js" afterPath="$PROJECT_DIR$/xuezi-project-s/js/myQuery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsCore/xuezi-project-s/xz.sql" afterPath="$PROJECT_DIR$/xuezi-project-s/xz.sql" />
+    <list default="true" id="d8f3aee3-afd1-4469-b09d-c395003f7fd2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/T_sourse/day08/day08.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day08/02_destruct.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -458,28 +25,8 @@
       <file leaf-file-name="day07.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day07/day07.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2352">
+            <state relative-caret-position="2415">
               <caret line="112" column="34" lean-forward="false" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="14_rest_spread.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day07/14_rest_spread.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10_rest_spread.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsCore/day07/10_rest_spread.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -518,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01-index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="01-index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xuezi-project-s/js/01-index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="403">
@@ -544,6 +91,26 @@
                 <marker date="1288245146464" expanded="true" signature="3663:3791" ph="..." />
                 <marker date="1288245146464" expanded="true" signature="3717:3773" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02_destruct.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCore/day08/02_destruct.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day08.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day08/day08.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="103" column="4" lean-forward="true" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -596,8 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AJAX/day01/xmlHttpResquest.html" />
-        <option value="$PROJECT_DIR$/AJAX/day01/ajax_ex.html" />
         <option value="$PROJECT_DIR$/AJAX/day01/response.php" />
         <option value="$PROJECT_DIR$/AJAX/day01/1_response.php" />
         <option value="$PROJECT_DIR$/AJAX/day01/get_request.html" />
@@ -647,6 +212,8 @@
         <option value="$PROJECT_DIR$/jsCore/xuezi-project-s/data/01-index/banners.php" />
         <option value="$PROJECT_DIR$/jsCore/xuezi-project-s/01-index.html" />
         <option value="$PROJECT_DIR$/jsCore/xuezi-project-s/js/01-index.js" />
+        <option value="$PROJECT_DIR$/jsCore/day08/02_destruct.html" />
+        <option value="$PROJECT_DIR$/jsCore/T_sourse/day08/day08.md" />
       </list>
     </option>
   </component>
@@ -736,6 +303,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="T_sourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day08" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dolphin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dolphin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="T_sourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day07" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dolphin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dolphin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="T_sourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dolphin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dolphin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day08" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -886,7 +515,7 @@
       <workItem from="1514085560247" duration="15392000" />
       <workItem from="1288072176787" duration="17051000" />
       <workItem from="1288157825882" duration="14548000" />
-      <workItem from="1288229005504" duration="10624000" />
+      <workItem from="1288229005504" duration="11371000" />
     </task>
     <task id="LOCAL-00001" summary="43 files">
       <created>1514005372391</created>
@@ -1035,11 +664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1288173855412</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="xuezi files">
+      <created>1288245633857</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1288245633857</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161285000" />
+    <option name="totallyTimeSpent" value="162032000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1056,7 +692,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21956088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1884058" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1884058" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28341386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1138,20 +774,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AJAX/day02/homework.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AJAX/day02/JSON_encode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AJAX/day02/6_json-ex.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -1415,14 +1037,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day07/day07.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2352">
-          <caret line="112" column="34" lean-forward="false" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day07/14_rest_spread.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1515,6 +1129,30 @@
             <marker date="1288245146464" expanded="true" signature="3663:3791" ph="..." />
             <marker date="1288245146464" expanded="true" signature="3717:3773" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/day08/02_destruct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day07/day07.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2415">
+          <caret line="112" column="34" lean-forward="false" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day08/day08.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="103" column="4" lean-forward="true" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
