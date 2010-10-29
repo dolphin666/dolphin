@@ -8,10 +8,11 @@
 <script src="ajax.js"></script>
 <script>
 	ajax("get","05-1-connect.php","","text")
-			.then(function (data) {
-				//data接住onreadyStatechange
+			.then(function (data) {//function(){}->resolve
+				//data接住onreadyStatechange中resolve调用时传递的参数
+				console.log(data);
 			})
-			.catch(function (err) {
+			.catch(function (err) {//function(){}->reject
 				console.log(err)
 			})
 </script>
