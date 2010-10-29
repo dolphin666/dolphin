@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>商品列表-学子商城</title>
   <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/products.css">
 </head>
 <body>
@@ -23,12 +24,12 @@
         <p class="title">笔记本电脑</p>
         <ul id="show-list">
           <!-- <li>
-            <a href="#">
-              <img src="img/product/md/57b12a31N8f4f75a3.jpg" alt="">
+            <a href="05-product-details.html?lid=${p.lid}" title=${p.title}>
+              <img src="${p.sm}" alt="">
             </a>
             <p>
-              <span class="price">&yen;6988.00</span>
-              <a href="#">Apple MacBook Air 13.3英寸笔记本 银色(Core i5 处理器/8GB内存/128GB SSD闪存 MMGF2CH/A)</a>
+              <span class="price">&yen;${p.price}</span>
+              <a href="05-product-details.html?lid=${p.lid}">${p.title}</a>
             </p>
             <div>
               <span class="reduce">-</span>
@@ -86,10 +87,11 @@
     <footer id="footer">
       <img src="img/loading.gif" alt="加载中..." >
     </footer>
-    <!-- <script src="js/myQuery.js"></script>
     <script src="js/ajax.js"></script>
+    <script src="js/03-header.js"></script>
     <script src="js/04-products.js"></script>
-    <script src="js/03-header.js"></script> -->
+    <!-- <script src="js/myQuery.js"></script>
+     -->
   </div>
 </body>
 </html>

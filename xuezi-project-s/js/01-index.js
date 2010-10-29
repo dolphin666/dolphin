@@ -1,10 +1,3 @@
-//加载header
-(()=>{
-	ajax("get","03-header.html","","text")
-			.then(html=>{
-				document.getElementById("header").innerHTML=html;
-			})
-})();
 //加载楼层
 (()=>{
 	ajax("get","data/01-index/floors.php","")

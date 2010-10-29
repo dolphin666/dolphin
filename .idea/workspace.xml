@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8f3aee3-afd1-4469-b09d-c395003f7fd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day08/08_promise_all.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day08/08_r1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day08/08_r2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsCore/day08/08_r3.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsCore/day08/ajax.js" afterPath="$PROJECT_DIR$/jsCore/day08/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsCore/day08/ajax_test.html" afterPath="$PROJECT_DIR$/jsCore/day08/ajax_test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xuezi-project-s/01-index.html" afterPath="$PROJECT_DIR$/xuezi-project-s/01-index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xuezi-project-s/04-products.html" afterPath="$PROJECT_DIR$/xuezi-project-s/04-products.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xuezi-project-s/data/04-products/products.php" afterPath="$PROJECT_DIR$/xuezi-project-s/data/04-products/products.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xuezi-project-s/js/01-index.js" afterPath="$PROJECT_DIR$/xuezi-project-s/js/01-index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xuezi-project-s/js/03-header.js" afterPath="$PROJECT_DIR$/xuezi-project-s/js/03-header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xuezi-project-s/js/04-products.js" afterPath="$PROJECT_DIR$/xuezi-project-s/js/04-products.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,36 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="05-2-query.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsCore/day08/05-2-query.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="05_promise.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsCore/day08/05_promise.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="05_promise_2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsCore/day08/05_promise_2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1218">
-              <caret line="58" column="7" lean-forward="false" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ajax.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsCore/day08/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,41 +56,97 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="08_promise_all.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jsCore/day08/08_promise_all.html">
+      <file leaf-file-name="01-index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xuezi-project-s/01-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="37" column="7" lean-forward="false" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+            <state relative-caret-position="214">
+              <caret line="97" column="41" lean-forward="false" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
+              <folding>
+                <element signature="e#1514#1833#0" expanded="false" />
+                <element signature="e#1842#2064#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01-index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xuezi-project-s/js/01-index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1288339931170" expanded="true" signature="194:499" ph="..." />
+                <marker date="1288339931170" expanded="true" signature="223:453" ph="..." />
+                <marker date="1288339931170" expanded="true" signature="527:805" ph="..." />
+                <marker date="1288339931170" expanded="true" signature="556:738" ph="..." />
+                <marker date="1288339931170" expanded="true" signature="856:1061" ph="..." />
+                <marker date="1288339931170" expanded="true" signature="1252:1557" ph="..." />
+                <marker date="1288339931170" expanded="true" signature="1281:1511" ph="..." />
+                <marker date="1288339931170" expanded="true" signature="1585:1863" ph="..." />
+                <marker date="1288339931170" expanded="true" signature="1614:1796" ph="..." />
+                <marker date="1288339931170" expanded="true" signature="1916:2121" ph="..." />
+                <marker date="1288339931170" expanded="true" signature="2311:2616" ph="..." />
+                <marker date="1288339931170" expanded="true" signature="2340:2570" ph="..." />
+                <marker date="1288339931170" expanded="true" signature="2644:2922" ph="..." />
+                <marker date="1288339931170" expanded="true" signature="2673:2855" ph="..." />
+                <marker date="1288339931170" expanded="true" signature="2975:3180" ph="..." />
+                <marker date="1288339931170" expanded="true" signature="3550:3678" ph="..." />
+                <marker date="1288339931170" expanded="true" signature="3604:3660" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03-header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xuezi-project-s/js/03-header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="08_r3.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsCore/day08/08_r3.php">
+      <file leaf-file-name="04-products.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xuezi-project-s/js/04-products.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="328">
+              <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+              <folding>
+                <marker date="1288347146255" expanded="true" signature="282:340" ph="..." />
+                <marker date="1288347146255" expanded="true" signature="356:506" ph="..." />
+                <marker date="1288347146255" expanded="false" signature="392:397" ph="¥" />
+                <marker date="1288347146255" expanded="true" signature="524:724" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xuezi-project-s/data/04-products/products.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax_test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsCore/day08/ajax_test.html">
+      <file leaf-file-name="03-header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xuezi-project-s/03-header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="378">
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsCore/ajax.js">
+      <file leaf-file-name="04-products.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xuezi-project-s/04-products.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="357">
+              <caret line="39" column="15" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="39" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -144,11 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AJAX/day02/3_province.php" />
-        <option value="$PROJECT_DIR$/AJAX/day02/3_province.html" />
-        <option value="$PROJECT_DIR$/AJAX/day02/3_city.php" />
-        <option value="$PROJECT_DIR$/jsCore/day04/day04.md" />
-        <option value="$PROJECT_DIR$/jsCore/day04/4_closure.html" />
         <option value="$PROJECT_DIR$/jsCore/day04/6_closure_btn.html" />
         <option value="$PROJECT_DIR$/jsCore/day04/7_closure_btns.html" />
         <option value="$PROJECT_DIR$/jsCore/day05/demo.html" />
@@ -180,7 +201,6 @@
         <option value="$PROJECT_DIR$/jsCore/xuezi-project-s/js/01-index.js" />
         <option value="$PROJECT_DIR$/jsCore/T_sourse/day08/day08.md" />
         <option value="$PROJECT_DIR$/jsCore/day08/02_destruct.html" />
-        <option value="$PROJECT_DIR$/xuezi-project-s/js/01-index.js" />
         <option value="$PROJECT_DIR$/jsCore/day08/03_flyer.html" />
         <option value="$PROJECT_DIR$/jsCore/day08/01_static.html" />
         <option value="$PROJECT_DIR$/jsCore/day08/04_getter_setter.html" />
@@ -195,6 +215,12 @@
         <option value="$PROJECT_DIR$/jsCore/day08/08_r1.php" />
         <option value="$PROJECT_DIR$/jsCore/day08/08_r2.php" />
         <option value="$PROJECT_DIR$/jsCore/day08/08_promise_all.html" />
+        <option value="$PROJECT_DIR$/xuezi-project-s/01-index.html" />
+        <option value="$PROJECT_DIR$/xuezi-project-s/js/01-index.js" />
+        <option value="$PROJECT_DIR$/xuezi-project-s/js/03-header.js" />
+        <option value="$PROJECT_DIR$/xuezi-project-s/04-products.html" />
+        <option value="$PROJECT_DIR$/xuezi-project-s/data/04-products/products.php" />
+        <option value="$PROJECT_DIR$/xuezi-project-s/js/04-products.js" />
       </list>
     </option>
   </component>
@@ -310,7 +336,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jsCore" />
+              <option name="myItemId" value="xuezi-project-s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,29 +354,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jsCore" />
+              <option name="myItemId" value="xuezi-project-s" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="T_sourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dolphin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dolphin" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jsCore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="day08" />
+              <option name="myItemId" value="04-products" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -485,7 +501,7 @@
       <workItem from="1288072176787" duration="17051000" />
       <workItem from="1288157825882" duration="14548000" />
       <workItem from="1288229005504" duration="24435000" />
-      <workItem from="1288334184694" duration="3457000" />
+      <workItem from="1288334184694" duration="11584000" />
     </task>
     <task id="LOCAL-00001" summary="43 files">
       <created>1514005372391</created>
@@ -669,11 +685,18 @@
       <option name="project" value="LOCAL" />
       <updated>1288262546301</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="5files">
+      <created>1288338069122</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1288338069122</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178553000" />
+    <option name="totallyTimeSpent" value="186680000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -687,10 +710,10 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="754" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49201596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23752496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1884058" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1884058" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28341386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -773,41 +796,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jsCore/day05/4_indexOf.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day05/5_trim.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsCore/day05/5_trim.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsCore/day06/1_isArray.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day06/1_isArray.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsCore/day06/2_override.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -941,13 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xuezi-project-s/01-index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsCore/T_sourse/day07/day07.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2415">
@@ -1001,13 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xuezi-project-s/js/01-index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="126" column="8" lean-forward="false" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1141,6 +1115,88 @@
         <state relative-caret-position="210">
           <caret line="37" column="7" lean-forward="false" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xuezi-project-s/01-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="97" column="41" lean-forward="false" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
+          <folding>
+            <element signature="e#1514#1833#0" expanded="false" />
+            <element signature="e#1842#2064#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xuezi-project-s/js/01-index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1288339931170" expanded="true" signature="194:499" ph="..." />
+            <marker date="1288339931170" expanded="true" signature="223:453" ph="..." />
+            <marker date="1288339931170" expanded="true" signature="527:805" ph="..." />
+            <marker date="1288339931170" expanded="true" signature="556:738" ph="..." />
+            <marker date="1288339931170" expanded="true" signature="856:1061" ph="..." />
+            <marker date="1288339931170" expanded="true" signature="1252:1557" ph="..." />
+            <marker date="1288339931170" expanded="true" signature="1281:1511" ph="..." />
+            <marker date="1288339931170" expanded="true" signature="1585:1863" ph="..." />
+            <marker date="1288339931170" expanded="true" signature="1614:1796" ph="..." />
+            <marker date="1288339931170" expanded="true" signature="1916:2121" ph="..." />
+            <marker date="1288339931170" expanded="true" signature="2311:2616" ph="..." />
+            <marker date="1288339931170" expanded="true" signature="2340:2570" ph="..." />
+            <marker date="1288339931170" expanded="true" signature="2644:2922" ph="..." />
+            <marker date="1288339931170" expanded="true" signature="2673:2855" ph="..." />
+            <marker date="1288339931170" expanded="true" signature="2975:3180" ph="..." />
+            <marker date="1288339931170" expanded="true" signature="3550:3678" ph="..." />
+            <marker date="1288339931170" expanded="true" signature="3604:3660" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xuezi-project-s/js/03-header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xuezi-project-s/03-header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xuezi-project-s/data/04-products/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xuezi-project-s/04-products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="39" column="15" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="39" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xuezi-project-s/js/04-products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+          <folding>
+            <marker date="1288347146255" expanded="true" signature="282:340" ph="..." />
+            <marker date="1288347146255" expanded="true" signature="356:506" ph="..." />
+            <marker date="1288347146255" expanded="false" signature="392:397" ph="¥" />
+            <marker date="1288347146255" expanded="true" signature="524:724" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
