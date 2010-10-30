@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+<h3>复合组件</h3>
+<div id="app">
+  <my-article></my-article>
+</div>
+<script src="js/vue.min.js"></script>
+<script>
+   //复合组件三部分组件: 复合组件 article[title/detail]
+   //创建title
+   Vue.component("my-title",{
+     template:`<h4>副标题</h4>`
+   });
+   //创建detail
+   Vue.component("my-detail",{
+     template:`<p>详细信息</p>`
+   });
+   //创建article {复合组件}
+   Vue.component("my-article",{
+     template:`
+       <div>
+         <my-title></my-title>
+         <my-detail></my-detail>
+       </div>
+     `
+   });
+
+
+   var exampleData = {
+     msg:"hello vue",
+   };
+   new Vue({
+      el:"#app",
+      data:exampleData
+    });
+</script>
+</body>
+</html>

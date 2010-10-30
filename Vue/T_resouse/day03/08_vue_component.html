@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+<h3>复合组件</h3>
+<div id="app">
+<button @click="isShow=!isShow">切换组件是否显示</button>
+  <my-component v-if="isShow"></my-component>
+</div>
+<script src="js/vue.min.js"></script>
+<script>
+   //组件的创建--生命周期
+   Vue.component("my-component",{
+     template:`
+       <div>
+         <button @click="handleClick">clickMe</button>
+         <h4>Hello {{count}}</h4>
+       </div>
+     `,
+     data:function(){
+        return {count:0}
+        //小心:写法特殊:每个模板对象中有一独立数据
+     },
+     methods:{
+       handleClick:function(){
+         this.count++;
+       }
+     },
+     beforeCreate:function(){console.log("1:创建前")},
+     created:function(){console.log("2:创建后")},
+     beforeMount:function(){console.log("3:挂载前")},
+     mounted:function(){console.log("4:创建后")},
+     beforeUpdate:function(){console.log("5:更新前")},
+     updated:function(){console.log("6:创建后")},
+     beforeDestroy:function(){console.log("7:消毁前")},
+     destroyed:function(){console.log("8:消毁后")}
+   });
+
+   var exampleData = {
+     msg:"hello vue",
+     isShow:true
+   };
+   new Vue({
+      el:"#app",
+      data:exampleData
+   });
+</script>
+</body>
+</html>

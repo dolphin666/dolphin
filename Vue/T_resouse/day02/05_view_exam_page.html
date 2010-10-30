@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    .myRed{color:red}
+    .myYellow{color:yellow}
+    .mySize{font-size:39px}
+    .active{color:red}
+    .page{list-style: none}
+    .page>li{
+      float:left;
+      padding: 5px;
+      margin-right:10px;
+      border:1px solid #ddd;
+      background:#eee;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <ul class="page">
+      <li>
+        <a  @click="prev">上一页</a>
+      </li>
+      <li v-for="n in pageCount">
+        <a v-bind:class="activeNumber==n?'active':''">{{n}}</a>
+      </li>
+      <li>
+        <a  @click="next">下一页</a>
+      </li>
+    </ul>
+  </div>
+  <script src="js/vue.min.js"></script>
+  <script>
+    //1:model
+    var exampleData = {
+      message:"hello",
+      pageCount:10,
+      activeNumber:3
+    }
+    //2:viewmodel
+    var app = new Vue({
+      el:"#app",
+      data:exampleData,
+      methods:{
+        prev:function(){
+          var pageNo = this.activeNumber;
+          pageNo--;
+          if(pageNo<=0){
+            return;
+          }
+          this.activeNumber = pageNo;
+        },
+        next:function(){
+          var pageNo = this.activeNumber;
+          pageNo++;
+          if(pageNo>this.pageCount){
+            return;
+          }
+          this.activeNumber = pageNo;
+        }
+      }
+    });
+  </script>
+</body>
+</html>

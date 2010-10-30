@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+<h3>用户列数操作</h3>
+<div id="app">
+  <!--用户输入表单-->
+  <hr/>
+  <form>
+uname <input type="text" v-model="newUser.uname"/><br/>
+age <input type="text" v-model="newUser.age"/><br/>
+phone <input type="text" v-model="newUser.phone"/><br/>
+<input type="button" value="create" @click="createUser"/>
+  </form>
+  <!--用户列表-->
+  <table border="1" width="80%">
+    <thead>
+    <tr>
+      <th>用户名</th><th>年龄</th><th>电话</th><th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr v-for="(item,idx) in users">
+         <td>{{item.uname}}</td>
+         <td>{{item.age}}</td>
+         <td>{{item.phone}}</td>
+         <td><button @click="deleteUser(idx)">delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<script src="js/vue.min.js"></script>
+<script>
+//   1:model
+   var exampleData = {
+    //此对象保存用户输入数值
+    newUser:{uname:"",age:0,phone:0},
+    //创建数组保存多个用户对象
+    users:[
+      {uname:"tom",age:19,phone:133} //初始值一个对象
+    ]
+   };
+//   2:viewmodel
+    new Vue({
+      el:"#app",
+      data:exampleData,
+      methods:{
+        createUser:function(){
+          //将当前用户对象保存数组中
+          this.users.push(this.newUser);
+          //清空当前用户输入值(添加完对象后，创建新对象)
+          //注意:必须创建新对象
+          this.newUser = {uname:"",age:0,phone:""};
+        },
+        deleteUser:function(idx){
+          //当前数组列表.删除指定对象
+          this.users.splice(idx,1);
+        }
+      }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+   <h3>组件</h3>
+   <div id="app">
+     <my-component></my-component>
+   </div>
+   <script src="js/vue.min.js"></script>
+   <script>
+     //1:创建组件对象
+     //  span 显示用户名
+     //  ulli 显示数组中用户名
+     //  input
+     Vue.component("my-component",{
+        template:`
+          <div>
+          <span>{{userName}}</span>
+          <ul><li v-show="myHide" v-for="item in list">{{item}}</li></ul>
+          <input type="button" value="clickMe" @click="setHide"/>
+          </div>
+        `,
+        data:function(){
+          return {
+            myHide:true,
+            userName:"tom",
+            list:["tom","jerry","kk"]}
+        },
+        methods:{
+          setHide:function(){
+            this.myHide = false
+          }
+        }
+
+     });
+     //2:将组件显示 #app中
+     //3:在组件中保存数据 userName
+     //                 list多个用户名称
+     //4:为input添加事件点击事件
+     //  隐藏ulli
+     //5:创建vue对象
+     new Vue({
+       el:"#app"
+     });
+     //9:39--9:41 写的快的同学8个组件生命周期函数
+   </script>
+</body>
+</html>

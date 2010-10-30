@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    .base{
+      width:320px;
+      height:300px;
+      background:#ddd;
+      border:3px solid #1b6d85;
+      padding:12px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div id="app">
+  <!--2:显示不同组件信息-->
+  <router-view></router-view>
+</div>
+<script src="js/vue.min.js"></script>
+<!--1:引入路由插件-->
+<script src="js/vue-router.js"></script>
+<script>
+  //3:创建三个组件
+var pList = Vue.component("product-list",{
+  data:function(){
+    return {lists:["Mac","MacPro","Surface","Lenovo"]}
+  },
+  template:`
+    <div>
+      <h3>产品列表</h3>
+      <ul>
+        <li v-for="(item,idx) in lists">
+<router-link :to="'/detail/'+idx">{{item}}</router-link>
+        </li>
+      </ul>
+    </div>
+  `
+});
+var pDetail = Vue.component("product-detail",{
+  data:function(){
+    return {productId:0}//接收上一个组件传递参数
+  },
+  template:`
+     <div>
+        <p>产品编号为 {{productId}}</p>
+     </div>
+  `,
+  mounted:function(){
+    //获取传递参数
+    var p = this.$route.params.pid;
+    console.log(p);
+    this.productId = p;
+  }
+});   //15:53--15:56
+var NotFound =  Vue.component("not-found",{
+    template:`
+      <div class="base">
+         <h1> 404 Page Not Found</h1>
+         <router-link to="/login">返回首页</router-link>
+      </div>
+    `
+  });
+  //4:创建路由词典 16:30--16:33
+  const myRoutes = [
+    {path:"",component:pList},
+    {path:"/list",component:pList,alias:"/lists"},
+    {path:"/mylist",redirect:"/list"},
+    {path:"/detail/:pid",component:pDetail},
+    {path:"*",component:NotFound},
+  ];
+  //5:创建路由对象(属性一个路由词典:myRoutes)
+  const myRouter = new VueRouter({
+    routes:myRoutes
+  });
+  //6:创建Vue
+  new Vue({
+    router:myRouter,
+    el:"#app"
+  });
+</script>
+</body>
+</html>

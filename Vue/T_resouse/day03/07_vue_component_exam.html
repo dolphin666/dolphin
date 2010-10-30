@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+<h3>复合组件</h3>
+<div id="app">
+  <my-login></my-login>
+</div>
+<script src="js/vue.min.js"></script>
+<script>
+   //创建label-name
+   Vue.component("label-name",{
+     template:`<label>用户名</label>`
+   });
+   //创建input-name
+   Vue.component("input-name",{
+     template:`<input type="text" placeholder="请输入用户名">`
+   });
+   //创建label-pwd
+   Vue.component("label-pwd",{
+     template:`<label>密码</label>`
+   });
+   //创建input-pwd
+   Vue.component("input-pwd",{
+     template:`<input type="password" placeholder="请输入密码">`
+   });
+   //创建button-login
+   Vue.component("button-login",{
+     template:`<button>登录</button>`
+   });
+   //创建button-register
+   Vue.component("button-register",{
+     template:`<button>注册</button>`
+   });
+   //创建my-login {复合组件}
+   Vue.component("my-login",{
+     template:`
+       <div>
+         <lable-name></lable-name>
+         <input-name></input-name>
+         <br/>
+         <label-pwd></label-pwd>
+         <input-pwd></input-pwd>
+         <br/>
+         <button-login></button-login>
+         <button-register></button-register>
+       </div>
+     `
+   });
+   
+
+   var exampleData = {
+     msg:"hello vue",
+   };
+   new Vue({
+      el:"#app",
+      data:exampleData
+    });
+</script>
+</body>
+</html>

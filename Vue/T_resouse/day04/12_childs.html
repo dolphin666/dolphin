@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+<div id="app">
+  <!--4:挂载兄弟组件 vue 1.0 必须组件"烤串"-->
+  <!--4:挂载兄弟组件 vue 2.0 必须组件"烤串"-->
+  <xiong-da></xiong-da>
+  <xiong-er></xiong-er>
+</div>
+<script src="js/vue.min.js"></script>
+<script>
+ //1:创建公共  Vue对象
+ var bus = new Vue();
+ //3:创建组件  xiong-er
+ Vue.component("xiong-er",{
+   template:`
+     <div>
+       <h4>熊二接收数据</h4>
+       <button @click="sendData">熊二后发送消息</button>
+     </div>
+   `,
+   mounted:function(){
+     bus.$on("cutomeEvent",function(msg){
+         console.log("熊大发来的消息:"+msg);
+     })
+   },
+   methods:{
+     sendData:function(){
+       bus.$emit("cutomeEvent2","快跑");
+     }
+   }
+ });
+ //熊二发送消息-->熊大    17:40-17:45
+ //2:创建组件  xiong-da
+ Vue.component("xiong-da",{
+   template:`
+     <div>
+       <h4>熊大发数据</h4>
+       <button @click="setData">发送</button>
+     </div>
+   `,
+   methods:{
+     setData:function(){
+       bus.$emit("cutomeEvent","光头强又来偷木头了");
+     }
+   },
+   mounted:function(){
+       bus.$on("cutomeEvent2",function(msg){
+           console.log("熊二发来的消息:"+msg);
+       });
+   }
+
+ });
+ //4:创建Vue
+ new Vue({el:"#app"});
+</script>
+</body>
+</html>

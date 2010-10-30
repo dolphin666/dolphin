@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+<h3>自定义过滤器</h3>
+<div id="app">
+  <h4>{{price}}</h4>
+  <h4>{{price | myCurrency('￥')}}</h4>
+  <h4>{{price | myCurrency('$')}}</h4>
+</div>
+<script src="js/vue.min.js"></script>
+<script>
+   var exampleData = {
+     msg:"hello vue",
+     price:356
+   };
+
+   //练习:实现一个过滤器 myTextTransform
+   //功能实现将一个字符串转换大写或者小写
+   //取决于传递过滤器参数 true 转大写
+   //                   false 转小写
+   //11:48--11:53
+   new Vue({
+      el:"#app",
+      data:exampleData,
+      filters:{//所有过滤器定义在此处理
+        myCurrency:function(myInput,arg1){
+            //arg1:'￥'     函数中参数货币符号
+            //myInput:price 过滤器前 | 变量值
+            var result = arg1+myInput;
+            return result;
+        }
+      }
+    });
+</script>
+</body>
+</html>
