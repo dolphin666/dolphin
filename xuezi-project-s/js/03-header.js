@@ -8,7 +8,7 @@
 				topInput.getElementsByClassName("search-img")[0].onclick=function () {
 					var kw=document.getElementById("txtSearch").value;
 					if(kw.trim().length!=0){
-						var url="http://localhost/dolphin/xuezi-project-s/04-products.html?kw="+kw;
+						var url="http://localhost/xuezi-project-s/04-products.html?kw="+kw;
 						location=url;
 					}
 				}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+   <h3>vue 指令:v-else</h3>
+   <div id="app">
+       <!--这里是view-->
+       <h4 v-if="age>=25">age:{{age}}</h4>
+       <h4 v-else>name:{{name}}</h4>
+       <hr/>
+       <h4 v-show="name.indexOf('l')>0">name:{{name}}</h4>
+       <h4 v-else>没查找到指定字符</h4>
+   </div>
+   <script src="js/vue.min.js"></script>
+   <script>
+    //1:创建数据
+    var exampleData = {
+      sex:"Male",
+      age:24,
+      name:"lion"
+    };
+    //2:创建vue实例
+    new Vue({
+      el:"#app",
+      data:exampleData
+    });
+   </script>
+</body>
+</html>
