@@ -1,1 +1,5 @@
-dev branch Creating a new branch is quick & simple.
+<<<<<<< HEAD
+dev branch Creating a new branch is quick AND simple.
+=======
+dev branch Creating a new branch is quick AND simple.
+>>>>>>> dev
