@@ -1,1 +1,1 @@
-dev branch hi
+dev branch Creating a new branch is quick AND simple.
