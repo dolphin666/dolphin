@@ -2,51 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8f3aee3-afd1-4469-b09d-c395003f7fd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/css/zhihu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day04/gulp-exercise/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day04/gulp-exercise/dist/all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day04/gulp-exercise/dist/all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day04/gulp-exercise/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day04/gulp-exercise/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day04/gulp-exercise/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day04/gulp-exercise/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day04/gulp-exercise/scss/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day04/gulp-test/scss/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day04/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/gulp-exercise/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/gulp-exercise/dist/all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/gulp-exercise/dist/all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/gulp-exercise/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/gulp-exercise/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/gulp-exercise/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/gulp-exercise/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/gulp-exercise/scss/style.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/.idea/JavaScriptBasic.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/.idea/dictionaries/web_01.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/day01/demo01.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/day01/demo02.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/day01/demo03.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/day01/demo04.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/day01/demo05.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/day01/name.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/day03/homework.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/day03/homework.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/learngit/.idea/learngit.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/learngit/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/learngit/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/learngit/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/learngit/demo01.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/learngit/demo02.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/learngit/demo03.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/learngit/demo04.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/learngit/demo05.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/learngit/git-commend.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/learngit/hellogit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/learngit/hellogit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScriptBasic/learngit/name.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/.idea/day05.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/mocha-demo/t1/add.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/mocha-demo/t1/sub.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/mocha-demo/t2/demo/test1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/mocha-demo/t2/demo/test2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/mocha-demo/t2/demo/test3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/mocha-demo/t3/test/demo/test1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/mocha-demo/t3/test/test2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/mocha-demo/t3/test/test3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/mocha-demo/t4/test/test1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/mocha-demo/t4/test/test2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/mocha-demo/t4/test/test3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/webapp/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/webapp/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/webapp/.idea/runConfigurations/bin_www.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/webapp/.idea/webapp.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/webapp/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/webapp/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/webapp/bin/www" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/webapp/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/webapp/public/stylesheets/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/webapp/routes/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/webapp/routes/users.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/webapp/views/error.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/webapp/views/index.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/.yo-rc.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/conf/browsersync-dist.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/conf/browsersync.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/conf/gulp.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/conf/karma-auto.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/conf/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/conf/webpack-dist.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/conf/webpack-test.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/conf/webpack.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/gulp_tasks/browsersync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/gulp_tasks/karma.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/gulp_tasks/misc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/gulp_tasks/webpack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/app/Footer.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/app/Footer.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/app/Header.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/app/Header.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/app/Main.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/app/Main.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/app/Title.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/app/Title.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/app/techs/Tech.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/app/techs/Tech.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/app/techs/Techs.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/app/techs/Techs.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/app/techs/techs.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/index.spec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -85,11 +103,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="name.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="name.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webstudy/jsBasic/day01/name.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
-              <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+              <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tech.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/app/techs/Tech.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -160,6 +188,7 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/Nodejs/day04/gulp-exercise/node_modules" />
+    <handled-path value="$PROJECT_DIR$/Nodejs/day05/mocha-demo/t4/node_modules" />
     <handled-path value="$PROJECT_DIR$/Nodejs/gulp-exercise/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
@@ -275,7 +304,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="day04" />
+              <option name="myItemId" value="day05" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yeoman-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -293,11 +326,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="day04" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulp-test" />
+              <option name="myItemId" value="day05" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -340,11 +369,11 @@
       <recent name="C:\xampp\dolphin\Nodejs\day04\js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\dolphin\Nodejs\day04" />
+      <recent name="C:\xampp\htdocs\dolphin\Nodejs\day05" />
       <recent name="C:\xampp\htdocs\dolphin\Nodejs" />
+      <recent name="C:\xampp\htdocs\dolphin\Nodejs\day04" />
       <recent name="C:\xampp\htdocs\dolphin\Nodejs\day05\mocha-demo\ti" />
       <recent name="C:\xampp\htdocs\dolphin\Nodejs\day04\webpack-demo\node_modules" />
-      <recent name="C:\xampp\htdocs\dolphin\Nodejs\day04\webpack-demo\app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -453,11 +482,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514005372391</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="46 files">
+      <created>1514006513751</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1514006513751</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70156000" />
+    <option name="totallyTimeSpent" value="70852000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,12 +507,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="754" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21956088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21956088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28456593" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -551,15 +587,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="43 files" />
-    <option name="LAST_COMMIT_MESSAGE" value="43 files" />
+    <MESSAGE value="46 files" />
+    <option name="LAST_COMMIT_MESSAGE" value="46 files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/gulp-exercise/dist/all.js" />
-    <entry file="file://$PROJECT_DIR$/Nodejs/day04/webpack-demo/app/hello.js" />
     <entry file="file://$PROJECT_DIR$/Nodejs/day04/index.html" />
     <entry file="file://$PROJECT_DIR$/Nodejs/day04/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -660,5 +695,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nodejs/day04/webpack-demo/app/hello.js" />
+    <entry file="file://$PROJECT_DIR$/webstudy/jsBasic/day01/name.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nodejs/day05/yeoman-demo/src/app/techs/Tech.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
