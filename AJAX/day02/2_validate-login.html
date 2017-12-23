@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<p>用户名：<input type="text" id="uname"></p>
+<p>密码：<input type="password" id="upwd"></p>
+<div id="msg-show"></div>
+<button onclick="validateLogin()">登录</button>
+<script src="common.js"></script>
+<script>
+	function validateLogin(){
+		var xhr=getXhr();
+		xhr.open("post","2_validate.php",true);
+		xhr.onreadystatechange=function () {
+			if(xhr.readyState==4&&xhr.status==200){
+				$("msg-show").innerHTML=xhr.responseText;
+			}
+		}
+		var uname=$("uname").value;
+		var upwd=$("upwd").value;
+		var msg="uname"+uname+"upwd"+upwd;
+		xhr.send(msg);
+	}
+</script>
+</body>
+</html>

@@ -7,16 +7,35 @@
 <body>
 <p>
 	用户密码：
-	<input type="password" id="upwd">
-	<span id="upwd-show">*</span>
+	<input type="password" id="upwd" onblur="check_upwd()">
+	<span id="upwd-show"></span>
 </p>
 <p>
 	确认密码：
-	<input type="password" id="cpwd">
-	<span id="cpwd-show">*</span>
+	<input type="password" id="cpwd" onblur="check_cpwd()">
+	<span id="cpwd-show"></span>
 </p>
 <script>
-
+	function $(id) {
+		return document.getElementById(id);
+	}
+	function check_upwd() {
+		var value = $("upwd").value;
+		if (value == ""){
+			$("upwd-show").innerHTML="用户密码不能为空";
+		}else{
+			$("upwd-show").innerHTML="通过";
+		}
+	}
+	function check_cpwd() {
+		var upwd_value=$("upwd").value;
+		var cpwd_value=$("cpwd").value;
+		if(upwd_value==cpwd_value){
+			$("cpwd-show").innerHTML="通过";
+		}else{
+			$("cpwd-show").innerHTML="两次输入不一致";
+		}
+	}
 </script>
 </body>
 </html>

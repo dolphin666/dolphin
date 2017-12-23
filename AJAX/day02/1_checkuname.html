@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>验证用户名称是否存在</title>
+</head>
+<body>
+	<p>
+		用户名:
+		<input type="text" id="uname" onblur="checkUname()">
+		<span id="uname-show"></span>
+	</p>
+	<script src="common.js"></script>
+	<script>
+		function checkUname() {
+			var xhr=getXhr();
+			var uname=$("uname").value;
+			var url="1_checkuname.php?uname="+uname;
+			xhr.open("get",url,true);
+			xhr.onreadystatechange=function () {
+				if(xhr.readyState==4&&xhr.status==200){
+					console.log("连接成功");
+					var resText=xhr.responseText;
+					$("uname-show").innerHTML=resText;
+				}
+			}
+			xhr.send(null);
+		}
+	</script>
+</body>
+</html>

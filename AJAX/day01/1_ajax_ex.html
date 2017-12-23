@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<div id="show-msg"></div>
+<button onclick="getMsg()">发送AJAX请求</button>
+<script>
+	function getXhr() {
+		var xhr;
+		if(window.XMLHttpRequest){
+			xhr=new XMLHttpRequest();
+		}else{
+			xhr=new ActiveXObject("Microsoft XMLHttp");
+		}
+		return xhr;
+	}
+	function getMsg() {
+		var xhr = getXhr();
+		//console.log(xhr);
+		xhr.open("get", "1_response.php", true);
+		xhr.onreadystatechange = function () {
+			if (xhr.readyState == 4 && xhr.status == 200) {
+				var resText = xhr.responseText;
+				var div = document.getElementById("show-msg");
+				div.innerHTML = resText;
+			}
+		}
+		xhr.send(null);
+	}
+</script>
+</body>
+</html>

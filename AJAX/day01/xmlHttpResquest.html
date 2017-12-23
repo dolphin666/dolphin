@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<button onclick="getXHr()">getXhr</button>
+<script>
+	function getXHr() {
+		var xhr;
+		if(XMLHttpRequest){
+			xhr=new XMLHttpRequest();
+		}else{
+			xhr=new ActiveXObject("Microsoft.XMLHttp");
+		}
+		return xhr;
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<p>
+	用户名：<input type="text" id="uname">
+</p>
+<p>
+	密码：<input type="password" id="upwd">
+</p>
+<p id="msg-show"></p>
+<button onclick="checkLogin()">验证</button>
+<script src="common.js"></script>
+<script>
+	function checkLogin() {
+		var uname=$("uname").value;
+		var upwd=$("upwd").value;
+		var url="homework.php?uname="+uname+"&upwd="+upwd;
+		console.log(url);
+		var xhr=getXhr();
+		xhr.open("get","homework.php",true);
+		xhr.onreadystatechange=function () {
+			if(xhr.readyState==4&&xhr.status==200){
+				console.log("已经成功");
+				var resText=xhr.responseText;
+				$("msg-show").innerHTML=resText;
+			}
+		}
+		xhr.send(null);
+
+	}
+</script>
+</body>
+</html>
