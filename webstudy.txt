@@ -1,2 +1,2 @@
 webstudy day01
-webstudy day02--smart boss
+webstudy day02--smart boss !
