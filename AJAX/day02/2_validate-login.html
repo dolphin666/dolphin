@@ -13,15 +13,17 @@
 <script>
 	function validateLogin(){
 		var xhr=getXhr();
-		xhr.open("post","2_validate.php",true);
+		xhr.open("post","2_validate-login.php",true);
 		xhr.onreadystatechange=function () {
+			console.log("lianjiechenggong");
 			if(xhr.readyState==4&&xhr.status==200){
 				$("msg-show").innerHTML=xhr.responseText;
 			}
 		}
+		xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded")
 		var uname=$("uname").value;
 		var upwd=$("upwd").value;
-		var msg="uname"+uname+"upwd"+upwd;
+		var msg="uname="+uname+"&upwd="+upwd;
 		xhr.send(msg);
 	}
 </script>
