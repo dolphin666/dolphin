@@ -24,11 +24,12 @@
 <script>
 	function getUsers() {
 		var xhr=getXhr();
-		xhr.open("get","07_xuezi_list.php",true);
+		xhr.open("get","07_xuzi_list.php",true);
 		xhr.onreadystatechange=function () {
 			if(xhr.readyState==4&&xhr.status==200){
 				console.log("OK");
-				var arr=JSON.parse(xhr.responseText);
+				var array=JSON.parse(xhr.responseText);
+				console.log(array);
 				var html="";
 				for(var i in array){
 					var user=array[i];

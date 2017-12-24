@@ -8,6 +8,6 @@ function getXhr() {
 	if(window.XMLHttpRequest){
 		return new XMLHttpRequest();
 	}else{
-		return new ActiveXObject("Microsoft.XMLhttp");
+		return new ActiveXObject("Microsoft.XMLHttp");
 	}
 }
