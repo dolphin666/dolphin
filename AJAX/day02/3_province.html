@@ -33,7 +33,7 @@
 		xhr.onreadystatechange=function () {
 			if(xhr.readyState==4&&xhr.status==200){
 				console.log("OK");
-				var array=JSON.parse(xhr.responseText);
+				var array=JSON.parse(xhr.responseText);//TODO:错误待查
 				console.log(array);
 				var html="";
 				for(var i in array){
