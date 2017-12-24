@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<button onclick="btn_click()">发送AJAX请求</button>
+<div id="show-msg"></div>
+<script src="common.js"></script>
+<script>
+	function btn_click() {
+		var xhr=getXhr();
+		xhr.open("get","JSON_encode.php","true");
+		xhr.onreadystatechange=function () {
+			if(xhr.readyState==4&&xhr.status==200){
+				console.log("连接成功");
+				var resText=xhr.responseText;
+				var obj=JSON.parse(resText);
+				var html="";
+				html+="<p>"+obj.name+"</p>";
+				html+="<p>"+obj.age+"</p>";
+				html+="<p>"+obj.gender+"</p>";
+				$("show-msg").innerHTML=html;
+			}
+		}
+		xhr.send(null);
+	}
+</script>
+</body>
+</html>
