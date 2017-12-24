@@ -10,41 +10,41 @@
 <script src="common.js"></script>
 <script>
 	function loadProvince() {
-		var xhr=getXhr();
-		xhr.open("get","3_province.php",false);
-		xhr.onreadystatechange=function () {
-			if(xhr.readyState==4&&xhr.status==200){
-				var tesText=xhr.responseText;
-				var obj=JSON.parse(tesText);
+		var xhr = getXhr();
+		xhr.open("get", "3_province.php", false);
+		xhr.onreadystatechange = function () {
+			if (xhr.readyState == 4 && xhr.status == 200) {
+				var tesText = xhr.responseText;
+				var obj = JSON.parse(tesText);
 				//console.log(obj);
-				var opts="";
-				for(var i=0;i<obj.length;i++){
-					opts+="<option>"+obj[i]+"</option>";
+				var opts = "";
+				for (var i = 0; i < obj.length; i++) {
+					opts += "<option>" + obj[i] + "</option>";
 				}
 				//console.log(opts);
-				$("selProvince").innerHTML=opts;
+				$("selProvince").innerHTML = opts;
 			}
 		}
 		xhr.send(null);
 	}
-	function loadCity(pid) {
-		var xhr=getXhr();
-		xhr.open("get","3_city.php?pid="+pid,true);
-		xhr.onreadystatechange=function () {
-			if(xhr.readyState==4&&xhr.status==200){
+	function loadCity(p_value) {
+		var xhr = getXhr();
+		xhr.open("get", "3_city.php?pid=" + p_value, true);
+		xhr.onreadystatechange = function () {
+			if (xhr.readyState == 4 && xhr.status == 200) {
 				console.log("OK");
-				var array=JSON.parse(xhr.responseText);//TODO:错误待查
+				var array = JSON.parse(xhr.responseText);//TODO:错误待查
 				console.log(array);
-				var html="";
-				for(var i in array){
-					html+="<option value='"+i+"'>"+array[i]+"</option>";
+				var html = "";
+				for (var i in array) {
+					html += "<option value='" + i + "'>" + array[i] + "</option>";
 				}
-				$("selCity").innerHTML=html;
+				$("selCity").innerHTML = html;
 			}
 		}
 		xhr.send(null);
 	}
-	window.onload=function () {
+	window.onload = function () {
 		loadProvince();
 		loadCity($("selProvince").value);
 	}

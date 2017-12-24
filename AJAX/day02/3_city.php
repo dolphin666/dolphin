@@ -4,6 +4,6 @@
         ["长春","四平"],
         ["大连","沈阳"]
     ];
-    $pid=$_REQUEST["pid"];
-    echo json_encode($array[$pid]);
+    $p_value=$_REQUEST["p_value"];
+    echo json_encode($array[$p_value]);
 ?>

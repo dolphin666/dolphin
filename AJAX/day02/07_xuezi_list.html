@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+
+	</style>
+</head>
+<body>
+<table>
+	<thead>
+	<tr>
+		<th>登录名</th>
+		<th>邮箱</th>
+		<th>电话</th>
+		<th>用户名</th>
+	</tr>
+	</thead>
+	<tbody id="show-body"></tbody>
+</table>
+<button onclick="getUsers()">读取数据</button>
+<script src="common.js"></script>
+<script>
+	function getUsers() {
+		var xhr=getXhr();
+		xhr.open("get","07_xuezi_list.php",true);
+		xhr.onreadystatechange=function () {
+			if(xhr.readyState==4&&xhr.status==200){
+				console.log("OK");
+				var arr=JSON.parse(xhr.responseText);
+				var html="";
+				for(var i in array){
+					var user=array[i];
+					html+="<tr>";
+					html+="<td>"+user.uname+"</td>>";
+					html+="<td>"+user.email+"</td>>";
+					html+="<td>"+user.phone+"</td>>";
+					html+="<td>"+user.user_name+"</td>>";
+					html+="</tr>";
+				}
+				$("show-body").innerHTML=html;
+			}
+		}
+		xhr.send(null);
+	}
+</script>
+</body>
+</html>
