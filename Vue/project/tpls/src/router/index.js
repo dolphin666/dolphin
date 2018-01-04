@@ -4,8 +4,7 @@ import Hello from '@/components/Hello'
 import productList from '@/components/demos/list'
 import Details from '@/components/demos/detail'
 import ToDoBox from '@/components/lianxi/ToDoBox'
-import ToDoInput from '@/components/lianxi/ToDoInput'
-import ToDoList from '@/components/lianxi/ToDoList'
+
 
 Vue.use(Router)
 
@@ -24,12 +23,6 @@ export default new Router({
     },
     {
       path:'/todoBox',component:ToDoBox
-    },
-    {
-      path:'/todoinput',component:ToDoInput
-    },
-    {
-      path:'/todolist',component:ToDoList
-    } 
+    }
   ]
 })

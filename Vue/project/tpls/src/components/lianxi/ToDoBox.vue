@@ -1,8 +1,10 @@
 <template>
   <div>
     <h1>
-      待做事项列表
+      TODOBOX
     </h1>
+    <todoinput @addEvent="addToList"></todoinput>
+    <todolist :lists="myList"></todolist>
   </div>
 </template>
 
@@ -13,6 +15,17 @@
     components:{
       todolist:ToDoList,
       todoinput:ToDoInput
+    },
+    data:function () {
+      return{
+      	myList:[]
+      }
+    },
+    methods:{
+    	addToList:function (msg) {
+        console.log(msg);
+        this.myList.push(msg);
+      }
     }
   }
 </script>
