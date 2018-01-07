@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+
+<div id="example">
+    <chat-room></chat-room>
+</div>
+
+<script>
+  Vue.component('my-input',{
+    props:['uName'],
+    data:function () {
+        return {
+          userInput:''
+        }
+    },
+    methods:{
+      sendToChatRoom:function () {
+        //触发自定义的事件addToListEvent
+        var msg = this.uName+":"+this.userInput;
+        //this.$emit('addToListEvent',msg);
+        this.$parent.msgList.push(msg);
+        this.userInput = "";
+      }
+    },
+    template:`
+        <div>
+            <label>{{this.uName}}</label>
+            <input type="text" v-model="userInput"/>
+            <button @click="sendToChatRoom">发送</button>
+        </div>
+    `
+  })
+
+  Vue.component('chat-room',{
+    data:function () {
+      return {
+        msgList:[]
+      }
+    },
+    template:`
+        <div>
+            <ul>
+                <li v-for="tmp in msgList">
+                    {{tmp}}
+                </li>
+            </ul>
+            <my-input
+            uName="Michael"></my-input>
+            <my-input
+             uName="Lucy"></my-input>
+        </div>
+    `
+  })
+
+  new Vue({
+    el: '#example',
+    data: {
+      msg: 'Hello VueJS'
+    }
+  })
+</script>
+
+</body>
+</html>

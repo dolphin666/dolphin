@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+    <script src="js/vue-resource.js"></script>
+</head>
+<body>
+
+<div id="example">
+    <my-list></my-list>
+</div>
+
+<script>
+  Vue.component('my-list',{
+    data:function () {
+      return {
+        productList:[]
+      }
+    },
+    methods:{
+      loadData:function () {
+        //核心代码
+        this.$http
+          .get('http://localhost/14-FRAMEWORK/1-VUEJS/day05/data/test.php')
+          .then(function(response){
+            console.log(response.data);
+            this.productList = response.data
+          })
+      }
+    },
+    template:`
+        <div>
+            <button @click="loadData">加载更多</button>
+            <ul>
+                <li v-for="tmp in productList">
+                    {{tmp.name}}
+                </li>
+            </ul>
+        </div>
+    `
+  })
+
+  new Vue({
+    el: '#example',
+    data: {
+      msg: 'Hello VueJS'
+    }
+  })
+</script>
+
+</body>
+</html>

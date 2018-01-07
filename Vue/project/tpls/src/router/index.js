@@ -5,6 +5,11 @@ import productList from '@/components/demos/list'
 import Details from '@/components/demos/detail'
 //import ToDoBox from '@/components/lianxi/ToDoBox'
 import todoBox from '@/components/lianxi2/ToDoBox'
+import Login from '@/components/Login'
+import Main from '@/components/Main'
+import Chart from '@/components/Chart'
+import ProductList from '@/components/ProductList'
+import UserList from '@/components/UserList'
 
 Vue.use(Router)
 
@@ -12,20 +17,27 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: Hello
+      component: Login
     },
     {
-      path:'/myList',component:productList
+      path:'/login',component:Login
     },
     {
-      path:'/myDetail/:myId',component:Details
-    }
-    /*,{
-      path:'/todoBox',component:ToDoBox
-    }*/,
-    {
-      path:'/todobox',component:todoBox
+      path:'/main',component:Main,
+      children:[
+        {
+          path:'/',
+          component:Chart
+        },
+        {
+          path:'/userList',
+          component:UserList
+        },
+        {
+          path:'/productList',
+          component:ProductList
+        }
+      ]
     }
   ]
 })

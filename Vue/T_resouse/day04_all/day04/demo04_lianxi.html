@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+    <script src="js/vue-router.js"></script>
+</head>
+<body>
+
+<div id="example">
+    <router-view></router-view>
+</div>
+
+<script>
+
+  var List = Vue.component('list-component',{
+    data:function(){
+      return {
+        myList:[100,200,300]
+      }
+    },
+    methods:{
+      jumpToDetail:function (index) {
+        //跳转到详情页
+        this.$router.push('/detail/'+index);
+      }
+    },
+    template:`
+        <div>
+            <h1>这是列表页面</h1>
+            <ul>
+                <li v-for="(tmp,index) in myList">
+                    <button @click="jumpToDetail(index)">
+                        {{tmp}}
+                    </button>
+                    <router-link :to="'/detail/'+index">
+                        {{tmp}}
+                    </router-link>
+                </li>
+            </ul>
+        </div>
+    `
+  })
+  var Detail = Vue.component('detail-component',{
+    data:function () {
+      return {
+        myIndex:''
+      }
+    },
+    created:function () {
+      //当组件创建完毕之后，接收传递来的参数
+      this.myIndex = this.$route.params.itemIndex
+    },
+    template:`
+        <div>
+            <h1>这是详情页面</h1>
+            <h2>{{"接收到数据是"+myIndex}}</h2>
+        </div>
+    `
+  })
+
+  const myRoutes = [
+    {path:'',component:List},
+    {path:'/list',component:List},
+    {path:'/detail/:itemIndex',component:Detail}
+  ];
+
+  const myRouter = new VueRouter({
+    routes:myRoutes
+  })
+
+  new Vue({
+    el: '#example',
+    router:myRouter,
+    data: {
+      msg: 'Hello VueJS'
+    }
+  })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+
+Vue中处理与远程服务器端的方式：
+
+①引入vue-resource.js
+②直接发起网络请求
+this.$http
+	.get(url)
+	.then(function(response){
+		//response.data
+	})
+
+练习：
+	准备工作：打开Apache
+	创建一个php文件，在访问该文件的时候，返回一个json格式的对象数组(3个对象)，对象包含name/sex/age
+
+	创建一个Vue的组件，在点击按钮时，发起网络请求，
+	将请求到的数据显示在无序列表
+
+
+在一个使用npm创建的项目中，执行npm install会干什么事？
+会去查找当前目录下的package.json,解析该json文件找到dependencies 和 devDepenedices 对应的依赖列表，安装所需要依赖的所有的包。
+
+扩展：什么是源代码管理（版本控制工具）？
+	git 分布式
+	svn 集中式
+	控制源代码的版本
+
+
+（14:45 - 15:10）
+
+1、如何根据模板去启动开发服务器
+	npm install
+
+	npm run dev 
+	成功打开了浏览器，
+	http://localhost:8080/#/
+
+2、结束开发服务器的运行：
+	ctr+c
+
+3、创建的模板项目中 如何来使用vueResource呢？
+	
+	①找到src目录下的main.js
+	②
+	import VueResource from 'vue-resource'
+	Vue.use(VueResource);
+	③使用$http
+	this.$http.get().then()
+
+（16：10 - 16:35）
+在当前案例的基础之上，支持点击列表项，将当前列表项的index传递给detail，detail接收并显示
+	①明确发送(list)、接收(detail)
+	②配置接收方的路由地址
+	③准备发送
+	<router-link to="/myDetail/30">
+          {{tmp.name}}
+        </router-link>
+	④准备接收
+
+4、Vue-cli所创建的模板项目中关键文件
+
+src/router/index.js 路由词典的设置
+
+src/components/***.vue 组件
+
+src/App.vue 模板应用中根组件
+
+src/main.js 是当前模板应用的主要设置的js文件，配置Vue的实例，配置VueResource，引入外部的css/js
+
+package.json 配置了当前项目所依赖的包，通过npm执行时支持的指令
+ npm是一个包管理器
+ nodejs是支持服务器的语言
+
+5、单文件组件嵌套其它组件的方式
+
+举例：比如 在MyList组件中嵌套MyHeader
+①找到列表的组件类
+在script标签中，引入要嵌套的组件类
+import MyHeader from '@/components/demos/header'
+
+②在组件类中，把要嵌套的组件类设置为局部组件
+components:{
+	customHeader:MyHeader
+}
+
+③调用组件
+<customHeader></customHeader>
+or
+<customHeader/>
+
+
+练习：ToDoBox
+ToDoInput/ToDoList/ToDoItem/ToDoBox
+
+①在src的components去创建一个文件夹 lianxi
+②在lianxi文件夹中创建4个.vue结尾的文件
+ToDoInput.vue
+ToDoList.vue
+...
+③给ToDoBox设置一个路由地址 /todobox
+④实现添加功能
+⑤实现删除功能

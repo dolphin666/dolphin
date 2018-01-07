@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+
+<div id="example">
+    <main-component></main-component>
+</div>
+
+<script>
+    Vue.component('main-component',{
+      data:function () {
+        return {
+          uLogin:false
+        }
+      },
+      methods:{
+        rcvMsg:function (msg) {
+          console.log('父组件接收到的数据为'+msg);
+          this.uLogin = msg;
+        }
+      },
+      template:`
+        <div>
+            <header-component @loginEvent="rcvMsg">
+            </header-component>
+            <ul v-if="uLogin">
+                <li>test01</li>
+                <li>test02</li>
+                <li>test03</li>
+            </ul>
+        </div>
+      `
+    })
+
+    Vue.component('header-component',{
+      data:function () {
+        return {
+          isUserLogin:false
+        }
+      },
+      template:`<button @click="handleClick">
+                {{isUserLogin?'退出登录':'登录'}}
+            </button>`,
+      methods:{
+        handleClick:function () {
+            //切换状态
+            this.isUserLogin = !this.isUserLogin;
+            //触发事件
+            this.$emit('loginEvent',this.isUserLogin);
+        }
+      }
+    });
+
+  new Vue({
+    el: '#example',
+    data: {
+      msg: 'Hello VueJS'
+    }
+  })
+</script>
+
+</body>
+</html>

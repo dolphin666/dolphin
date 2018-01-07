@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+    <script src="js/vue-router.js"></script>
+</head>
+<body>
+
+<div id="example">
+    <router-view></router-view>
+</div>
+
+<script>
+  var Cart = Vue.component('cart-component',{
+    template:`
+        <div>
+            <h1>这是购物车</h1>
+            <router-link to="/order">结算</router-link>
+        </div>
+    `
+  })
+
+  var OrderConfirm = Vue.component('order-confirm',{
+    methods:{
+      jump:function (desPath) {
+        this.$router.push(desPath);
+      }
+    },
+    template:`
+        <div>
+            <h1>这是订单确认页面</h1>
+            <button @click="jump('/step1')">
+                第一步
+            </button>
+            <button @click="jump('/step2')">
+                第二步
+            </button>
+            <router-view></router-view>
+        </div>
+    `
+  })
+
+  var Step1 = Vue.component('step1',{
+    template:'<h1>这是订单确认的第一步</h1>'
+  })
+  var Step2 = Vue.component('step2',{
+    template:'<h1>这是订单确认的第二步</h1>'
+  })
+
+  const myRoutes = [
+    {path:'',component:Cart},
+    {path:'/cart',component:Cart},
+    {
+      path:'/order',
+      component:OrderConfirm,
+      children:[
+        {path:'',component:Step1},
+        {path:'/step1',component:Step1},
+        {path:'/step2',component:Step2}
+      ]
+    }
+  ]
+
+  const myRouter = new VueRouter({
+    routes:myRoutes
+  })
+
+
+  new Vue({
+    el: '#example',
+    router:myRouter,
+    data: {
+      msg: 'Hello VueJS'
+    }
+  })
+</script>
+
+</body>
+</html>

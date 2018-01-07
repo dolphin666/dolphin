@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+
+<div id="example">
+    <father></father>
+</div>
+
+<script>
+    //创建一个Vue的实例，作为bus去使用
+    var bus = new Vue();
+
+    Vue.component('father',{
+      template:`
+        <div>
+            <xiong-da></xiong-da>
+            <hr/>
+            <xiong-er></xiong-er>
+        </div>
+      `
+    })
+
+    Vue.component('xiong-da',{
+      methods:{
+        sendToXiongEr:function () {
+          //触发事件并传值
+          bus.$emit('toXiongEr','光头强又来偷木头了');
+        }
+      },
+      template:`
+        <div>
+            <h1>熊大</h1>
+            <button @click="sendToXiongEr">
+                通知熊二
+            </button>
+        </div>
+      `
+    })
+
+    Vue.component('xiong-er',{
+      created:function () {
+        //通过bus给绑定一个事件处理函数
+        bus.$on('toXiongEr',function (msg) {
+          console.log('熊二收到的数据是'+msg);
+        });
+      },
+      template:`
+        <div>
+            <h1>熊二</h1>
+        </div>
+      `
+    })
+
+
+  new Vue({
+    el: '#example',
+    data: {
+      msg: 'Hello VueJS'
+    }
+  })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+
+<div id="example">
+    <father></father>
+</div>
+
+<script>
+
+    Vue.component('father',{
+      data:function () {
+        return {
+          chuanjiabao:'尚方宝剑'
+        }
+      },
+      methods:{
+        checkSonStatus:function () {
+          //读取子组件中的数据或者方法
+          console.log(this.$refs.mySon.nowDoing);
+        }
+      },
+      template:`
+        <div>
+            <button @click="checkSonStatus">
+                查看儿子在干嘛
+            </button>
+            <hr/>
+            <son ref="mySon"></son>
+        </div>
+      `
+    })
+
+    Vue.component('son',{
+      data:function () {
+        return {
+          nowDoing:'玩游戏...'
+        }
+      },
+      mounted:function () {
+        //在组件挂载完毕之后，去读取父组件中的值
+        console.log(this.$parent.chuanjiabao);
+      },
+      template:`
+        <div>
+            <h1>这是子组件</h1>
+        </div>
+      `
+    })
+
+  new Vue({
+    el: '#example',
+    data: {
+      msg: 'Hello VueJS'
+    }
+  })
+</script>
+
+</body>
+</html>

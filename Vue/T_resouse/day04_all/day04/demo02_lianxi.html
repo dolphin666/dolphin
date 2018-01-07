@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+    <!--1、引入对应的js文件-->
+    <script src="js/vue-router.js"></script>
+</head>
+<body>
+
+<div id="example">
+    <!--2、指定盛放组件的容器-->
+    <!--<router-view></router-view>-->
+    <father></father>
+</div>
+
+<script>
+
+    Vue.component('father',{
+      methods:{
+        jump:function (desPath) {
+          this.$router.push(desPath);
+        }
+      },
+      template:`
+        <router-view></router-view>
+      `
+    })
+
+    //根据业务的需求，创建要用到的组件
+    var MainComponent = Vue.component('main-component',{
+      methods:{
+        jump:function () {
+          this.$router.push('/myPerson');
+       //   this.$parent.jump('/myPerson')
+        }
+      },
+      template:`<div>
+            <h1>这是主页面</h1>
+            <button @click="$parent.jump('/myPerson')">查看个人中心</button>
+            <button @click="jump">查看个人中心</button>
+        </div>`
+    })
+    var PersonComponent = Vue.component('person-component',{
+      template:`<div>
+            <h1>这是个人中心页面</h1>
+            <router-link to="/mySettings">设置头像</router-link>
+        </div>`
+    })
+    var SettingsComponent = Vue.component('settings-component',{
+      methods:{
+        jump:function () {
+          this.$router.push('/myMain');
+        }
+      },
+      template:`<div>
+            <h1>这是设置页面</h1>
+            <button @click="jump">查看主页面</button>
+        </div>`
+    })
+
+    //4.1、创建路由词典
+    const myRoutes = [
+      {
+        path:'',
+        component:MainComponent
+      },
+      {
+        path:'/myMain',
+        component:MainComponent
+      },
+      {
+        path:'/myPerson',
+        component:PersonComponent
+      },
+      {
+        path:'/mySettings',
+        component:SettingsComponent
+      }
+    ]
+
+    //4.2、给路由模块 指定 自定义路由词典
+    const myRouter = new VueRouter({
+      routes:myRoutes
+    })
+
+  new Vue({
+    el: '#example',
+    //4.3 指定当前Vue的项目中采用的路由模块是myRouter
+    router:myRouter,
+    data: {
+      msg: 'Hello VueJS'
+    }
+  })
+</script>
+
+</body>
+</html>

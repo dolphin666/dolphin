@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/vue.js"></script>
+    <script src="js/vue-router.js"></script>
+    <title>Title</title>
+</head>
+<body>
+
+<div id="example">
+    <!--指定一个用来盛放组件的容器-->
+    <router-view></router-view>
+</div>
+
+<script>
+    //创建组件
+    var LoginComponent =
+      Vue.component('login-component',{
+          data:function () {
+            return {
+              myName:''
+            }
+          },
+          methods:{
+            login:function () {
+                //登录到邮箱的页面
+                this.$router.push('/mail/'+this.myName);
+            }
+          },
+          template:`
+            <div>
+                <h1>这是登录页面</h1>
+                <input type="text" v-model="myName"/>
+                <br/>
+                <button @click="login">登录</button>
+            </div>
+          `
+    })
+
+    var MailComponent =
+      Vue.component('mail-component',{
+          data:function () {
+            return {
+              userName:''
+            }
+          },
+          beforeMount:function () {
+            //解析传递来的参数
+            this.userName = this.$route.params.uName;
+          },
+          methods:{
+            jump:function (desPath) {
+              this.$router.push(desPath);
+            }
+          },
+          template:`
+            <div>
+                <p>{{"欢迎"+userName+"登录"}}</p>
+                <h1>这是邮箱页面</h1>
+                <button @click="jump('/inbox')">收件箱</button>
+                <button @click="jump('/outbox')">发件箱</button>
+                <button @click="jump('/draft')">草稿箱</button>
+                <router-view></router-view>
+            </div>
+            `
+    })
+
+    var InboxComponent = Vue.component('inbox',{
+      template:`
+        <ul>
+            <li>未读邮件1</li>
+            <li>未读邮件2</li>
+            <li>未读邮件3</li>
+        </ul>
+      `
+    })
+    var OutboxComponent = Vue.component('outbox',{
+      template:`
+        <ul>
+            <li>已发邮件1</li>
+            <li>已发邮件2</li>
+            <li>已发邮件3</li>
+        </ul>
+      `
+    })
+
+    var NotFoundComponent =
+        Vue.component('not-found',{
+          template:`
+            <h1>404 page not found</h1>
+          `
+        })
+
+    //创建路由词典
+    const myRoutes = [
+      {path:'',component:LoginComponent},
+      {path:'/login',component:LoginComponent},
+      {
+        path:'/mail/:uName',
+        component:MailComponent,
+        children:[
+          {path:'',component:InboxComponent},
+          {path:'/inbox',component:InboxComponent},
+          {path:'/outbox',component:OutboxComponent},
+          {path:'*',component:NotFoundComponent}
+        ]
+      },
+      {path:'*',component:NotFoundComponent}
+    ]
+
+    //配置
+    const myRouter = new VueRouter({
+      routes:myRoutes
+    })
+
+    new Vue({
+      el:'#example',
+      router:myRouter
+    })
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+    <script src="js/vue-resource.js"></script>
+</head>
+<body>
+
+<div id="example">
+    <product-list></product-list>
+</div>
+
+<script>
+  Vue.component('product-list',{
+    data:function () {
+      return {
+        myList:[]
+      }
+    },
+    methods:{
+      loadData: function(){
+        console.log(this);
+        this.$http
+          .get('http://jsonplaceholder.typicode.com/users')
+          .then(function(response){
+            console.log(response);
+            this.myList = response.data;
+          })
+      }
+    },
+    template:`
+        <ul>
+            <li v-for="tmp in myList">{{tmp}}</li>
+            <li>
+                <button @click="loadData">加载更多</button>
+            </li>
+        </ul>
+    `
+  })
+  new Vue({
+    el: '#example',
+    data: {
+      msg: 'Hello VueJS'
+    }
+  })
+</script>
+
+</body>
+</html>

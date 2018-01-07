@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+    <script src="js/vue-router.js"></script>
+</head>
+<body>
+
+<div id="example">
+    <router-view></router-view>
+</div>
+
+<script>
+
+  var LoginComponent = Vue.component('login',{
+    methods:{
+      jumpToMain:function () {
+        //跳转到主页面
+        this.$router.push('/main/'+this.myName);
+      }
+    },
+    data:function () {
+      return {
+        myName:''
+      }
+    },
+    template:`
+        <div>
+            <h1>这是登录页面</h1>
+            <input type="text" v-model="myName"/>
+            <button @click="jumpToMain">登录到主页面</button>
+            <router-link :to="'/main/'+myName">跳转到主页面</router-link>
+        </div>
+    `
+  })
+
+  var MainComponent = Vue.component('main-component',{
+    created:function () {
+      //接收参数
+      console.log(this.$route.params.uName);
+      //保存到当前的类中
+      this.userName = this.$route.params.uName;
+    },
+    data:function () {
+      return {
+        userName:''
+      }
+    },
+    methods:{
+      //返回上一页
+      goBack:function(){
+        console.log('go back func is called');
+        //在当前浏览器的历史记录中，往后退一步
+        this.$router.go(-1);
+      }
+    },
+    template:`
+        <div>
+            <h1>这是主页面 {{userName}}</h1>
+            <button @click="goBack">退出登录</button>
+        </div>
+    `
+  })
+
+  //创建路由词典
+  const myRoutes = [
+    {
+      path:'',
+      component:LoginComponent
+    },
+    {
+      path:'/login',
+      component:LoginComponent
+    },
+    {
+      path:'/main/:uName',
+      component:MainComponent
+    }
+  ];
+
+  const myRouter = new VueRouter({
+    routes:myRoutes
+  })
+
+  new Vue({
+    el: '#example',
+    router:myRouter,
+    data: {
+      msg: 'Hello VueJS'
+    }
+  })
+</script>
+
+</body>
+</html>

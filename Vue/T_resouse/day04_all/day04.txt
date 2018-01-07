@@ -1,0 +1,165 @@
+
+（基本语法+组件+）
+
+
+练习：
+	①先去创建各个组件
+	②实现添加功能
+	③实现删除功能
+	点击todoitem中的delete按钮时候，从todolist中删除指定下标的元素
+
+	todoitem（触发） --index-> todolist（绑定）
+	events up 绑定和触发 
+
+	组件间通信：
+		兄弟组件间通信 bus
+		props down
+		events up
+
+SPA(single page application)
+http(Vue如何实现与远程服务器端的交互)
+
+一、Vue中如何来实现一个SPA应用程序
+
+1、SPA的基础知识
+SPA：Gmail邮箱
+	在整个应用程序有一个完整的页面，这个完整的页面可以根据地址栏中url的不同，加载代码片段进来，从而显示给用户
+
+SPA的工作原理：
+	①解析地址栏中的页面地址和路由地址
+	②加载基础页面地址
+	③根据路由地址，从路由词典中找要加载的模板页面地址
+	④发起ajax请求，将加载来的模板页面 插入到 指定的容器中
+
+2、VueRouter
+	Vue中VueRouter是用来实现SPA
+
+	基础知识：
+		路由模块用来建立起url地址和模板页面的映射关系，支持路由之间的导航、参数传递、嵌套、守卫。。
+
+	
+	SPA：有容器 ，有组件 ，配置路由词典
+
+	2.1 通过VueRouter来实现一个SPA的基本步骤：
+		①引入对应的js文件 
+			script  src=js/vue-router.js
+		②指定容器
+			<router-view></router-view>
+		③创建业务需要用到的各个组件
+			var LoginComponent = Vue.component('',{})
+		④配置路由词典
+			path/component/routes/router
+			//创建路由词典
+				const myRoutes = [
+					{
+						path:'/myLogin',
+						component:LoginComponent
+					},
+					{
+						path:'/myRegister',
+						component:RegisterComponent
+					}
+				]
+		
+			//配置路由模块中的路由词典
+				const myRouter = new VueRouter({
+					routes:myRoutes
+				})
+
+			//Vue的实例去使用配置过的路由模块
+					new Vue({
+						router:myRouter
+					})
+
+		⑤测试路由地址是否能够正确访问	
+			修改地址栏中的路由地址，测试 是否能够按照配置 正确的加载对应的组件
+
+
+
+	2.2 VueRouter实现路由导航的常见方式
+		①直接修改地址栏
+		②js
+			this.$router.push('路由地址')
+		③自定义标签
+			<router-link to="路由地址"></router-link>
+
+		
+	练习：
+		创建一个demo02_lianxi.html
+		要求创建一个SPA，有3个页面（每一个页面有一个组件）构成：main-component/person-component/setting-component
+
+		在main-component有一个按钮(个人中心)，点击时 跳转到person-component；
+		在person-component有一个超链接(设置头像)，点击，跳转到setting-component;
+		在setting-component有一个按钮(查看主页面),点击-》main-component
+
+	2.3 VueRouter实现参数传递的基本步骤
+		①确定发送方、接收方
+			发送方：login
+			接收方：main
+		②发送
+			http://***.html#/myMain/zhangsan
+			this.$router.push('/myMain/'+this.userName)
+			<router-link :to="'/myMain/'+userName"></router-link>
+		③接收
+			3.1 允许接收
+				path:'/myMain'
+				-->
+				path:'/myMain/:uName'
+			3.2 接收数据
+				this.$route.params.uName
+		
+		补充：
+			this.$router.push('路由地址');
+			//可以使用go方法在历史记录中，前进或者后退
+			this.$router.go(-1);
+
+	练习:
+		新建demo04_lianxi.html
+	  有两个组件	list-component,detail-component
+		list-component:
+		有一个列表（准备一个数组），点击列表项，跳转到detail组件,并将列表项背后数组的下标 传递给detail组件
+		
+		detail-component:接收到传递来的下标，并显示在页面中
+
+		SPA实现的基本步骤
+		跳转
+			传参
+				①明确发送方 接收方
+					发送list
+					接收detail
+				②配置接受方的路由地址
+					path:'/detail'
+					-->
+					path:'/detail/:itemIndex'
+
+	2.4 路由嵌套
+	如果一个SPA中的某个页面，根据不同的地址，嵌套其它的组件，称之为路由嵌套，而VueRouter是支持路由嵌套。
+
+		①在准备嵌套其它组件的组件中，指定一个容器
+		router-view
+		举例：比如order组件中准备嵌套Step1\Step2\Step3，在order组件的模板中 指定一个router-view
+		②设置准备嵌套其它组件的路由地址
+		order组件准备嵌套，就需要在order组件的路由地址中添加一个children的属性
+		{
+			path:'/order',
+			component:OrderConfirmComponent,
+			children:[
+				{path:'',component:**},
+				{path:'step1',********}
+			]
+		}
+
+
+	每日一练：
+		spa基本、跳转、传参、嵌套
+		
+		要求搭建新建一个demo06_lianxi.html。
+		创建一个SPA程序，在SPA中有两个基础组件
+		login-component/mail-component（默认加载login）;
+		要求在mail-component能够嵌套另外两个组件
+		inbox-component/outbox-component
+
+		具体要求：
+		login:输入框，按钮，点击按钮，将输入框中的内容传递给mail
+		mail：接收login传来的用户名，显示：欢迎**登录
+		还有两个按钮，收件箱、发件箱（默认加载收件箱），在点击收件箱和发件箱时 去加载inbox\outbox

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+
+<div id="example">
+    <chat-room></chat-room>
+</div>
+
+<script>
+  Vue.component('my-input',{
+    props:['uName'],
+    data:function () {
+        return {
+          userInput:''
+        }
+    },
+    methods:{
+      sendToChatRoom:function () {
+        //触发自定义的事件addToListEvent
+        var msg = this.uName+":"+this.userInput;
+        this.$emit('addToListEvent',msg);
+        this.userInput = "";
+      }
+    },
+    template:`
+        <div>
+            <label>{{this.uName}}</label>
+            <input type="text" v-model="userInput"/>
+            <button @click="sendToChatRoom">发送</button>
+        </div>
+    `
+  })
+
+  Vue.component('chat-room',{
+    data:function () {
+      return {
+        msgList:[]
+      }
+    },
+    methods:{
+      rcvMsg:function (msg) {
+        //msg就是子组件传递来的数据
+        console.log("子组件传递来的数据 is "+msg);
+        //将用户发来的数据 追加到 msgList中
+        this.msgList.push(msg);
+      }
+    },
+    template:`
+        <div>
+            <ul>
+                <li v-for="tmp in msgList">
+                    {{tmp}}
+                </li>
+            </ul>
+            <my-input @addToListEvent="rcvMsg"
+            uName="Michael"></my-input>
+            <my-input @addToListEvent="rcvMsg"
+             uName="Lucy"></my-input>
+        </div>
+    `
+  })
+
+  new Vue({
+    el: '#example',
+    data: {
+      msg: 'Hello VueJS'
+    }
+  })
+</script>
+
+</body>
+</html>

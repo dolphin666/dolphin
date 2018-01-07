@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+
+<div id="example">
+    <!--将父组件作为整个应用程序的根组件-->
+    <xiao-tou></xiao-tou>
+</div>
+
+<script>
+    Vue.component('xiao-tou',{
+      methods:{
+        rcvMsg:function (msg) {
+          console.log('接收到数据了：'+msg);
+        }
+      },
+      template:`
+        <div>
+            <h1>这是父组件</h1>
+            <hr/>
+            <da-tou @sendToFather="rcvMsg"></da-tou>
+        </div>
+      `
+    })
+
+    Vue.component('da-tou',{
+      data:function(){
+        return {num:123}
+      },
+      template:`
+        <div>
+            <h2>这是子组件</h2>
+            <button @click="handleClick">
+                发数据给父组件
+            </button>
+        </div>
+      `,
+      methods:{
+        handleClick:function () {
+          this.$emit('sendToFather',this.num);
+        }
+      }
+    })
+
+  new Vue({
+    el: '#example',
+    data: {
+      msg: 'Hello VueJS'
+    }
+  })
+</script>
+
+</body>
+</html>
