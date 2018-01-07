@@ -11,6 +11,7 @@ import './assets/css/font-awesome.css'
 import './assets/css/animate.css'
 import './assets/css/app.css'
 import './assets/js/jquery'
+import './assets/js/jquery.flot'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
